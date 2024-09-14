@@ -55,6 +55,54 @@ a {
     text-decoration: none;
 }
 
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transition: all 0.8s ease-in-out 0s;
+        -webkit-transition: all 0.8s ease-in-out 0s
+    }
+    50% {
+        transform: translateY(20px);
+        -webkit-transform: translateY(20px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0)
+    }
+}
+
+@keyframes scale3dImg {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+
+    5% {
+        -webkit-transform: scale3d(0.91, 0.84, 0.85);
+        transform: scale3d(0.91, 0.84, 0.85)
+    }
+
+    10% {
+        -webkit-transform: scale3d(0.93, 0.86, 0.84);
+        transform: scale3d(0.93, 0.86, 0.84)
+    }
+
+    26% {
+        -webkit-transform: scale3d(0.94, 0.97, 0.98);
+        transform: scale3d(0.94, 0.97, 0.98)
+    }
+
+    80% {
+        -webkit-transform: scale3d(0.97, 0.99, 0.91);
+        transform: scale3d(0.97, 0.99, 0.91)
+    }
+
+    100% {
+        -webkit-transform: scale3d(0.99, 0.91, 0.99);
+        transform: scale3d(0.99, 0.91, 0.99)
+    }
+}
 .wrapper {
     max-width: 900px;
     width: 100%;
@@ -91,6 +139,14 @@ a {
             width: 554px;
             display: block;
             object-fit: cover;
+        }
+        img.trans-animated {
+            animation-name: scale3dImg;
+            -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            animation-iteration-count: infinite;
         }
         p {
             position: absolute;
@@ -206,6 +262,9 @@ a {
             img {
                 width: 256px;
                 object-fit: cover;
+                animation: fadeIn ease 2s;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
             }
             strong {
                 color: var(--sub, #D5A712);
@@ -238,6 +297,9 @@ a {
         .fixed-doctor {
             img {
                 width: 241px;
+                animation: fadeIn ease 2s;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
             }
         }
         .fixed-text {
@@ -250,6 +312,9 @@ a {
                 font-weight: 700;
                 line-height: 40px; /* 146.752% */
                 letter-spacing: 1.908px;
+                animation: fadeIn ease 2s;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
             }
             p:last-of-type {
                 color: #06C755;
@@ -260,6 +325,9 @@ a {
                 font-weight: 900;
                 line-height: 175%; /* 81.982px */
                 letter-spacing: 1.874px;
+                animation: fadeIn ease 2s;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
                 span {
                     font-size: 53.416px;
                     letter-spacing: 2.137px;
@@ -269,6 +337,14 @@ a {
         &-cta {
             position: relative;
             text-align: center;
+            img.trans-animated {
+                animation-name: scale3dImg;
+                -webkit-animation-duration: 1.5s;
+                animation-duration: 1.5s;
+                -webkit-animation-fill-mode: both;
+                animation-fill-mode: both;
+                animation-iteration-count: infinite;
+                }
             p {
                 width: 80%;
                 position: absolute;
@@ -330,6 +406,9 @@ a {
                 position: absolute;
                 top: 58px;
                 left: 44px;
+                animation: fadeIn ease 2s;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
             }  
         }
         p {
@@ -349,14 +428,23 @@ a {
         }
         > img:nth-of-type(1) {
             margin-bottom: 3px;
+            animation: fadeIn ease 2s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
         }
         > img:nth-of-type(2) {
             width: 606px;
             margin-left: 10px;
+            animation: fadeIn ease 2s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
         }
         > img:nth-of-type(3) {
             width: 678px;
             margin-left: 28px;
+            animation: fadeIn ease 2s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
         }
         .caution-user {
             margin-top: -10px;
@@ -381,6 +469,11 @@ a {
     .caution-box {
         margin-left: 35px;
         margin-top: -97px;
+        img {
+            animation: fadeIn ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
         img:last-child {
             margin-top: -58px;
         }
@@ -526,6 +619,11 @@ a {
                 margin-bottom: 8px;
                 display: flex;
                 align-items: flex-end;
+                img {
+                    animation: fadeIn ease 2s;
+                    animation-iteration-count: 1;
+                    animation-fill-mode: forwards;
+                }
             }
             > p:first-of-type {
                 max-width: 452px;
@@ -571,6 +669,9 @@ a {
                 margin-bottom: -227px;
                 img {
                     width: 465px;
+                    animation: fadeIn ease 3s;
+                    animation-iteration-count: 1;
+                    animation-fill-mode: forwards;
                 }
             }
             .check-circle {
@@ -628,6 +729,14 @@ a {
                 position: relative;
                 text-align: center;
                 margin-top: -280px;
+                img.trans-animated {
+                    animation-name: scale3dImg;
+                    -webkit-animation-duration: 1.5s;
+                    animation-duration: 1.5s;
+                    -webkit-animation-fill-mode: both;
+                    animation-fill-mode: both;
+                    animation-iteration-count: infinite;
+                }
                 p {
                     width: 80%;
                     position: absolute;
@@ -739,16 +848,28 @@ a {
                 img:first-of-type {
                     margin-right: 50px;
                     margin-bottom: 30px;
+                    animation: fadeIn ease 3s;
+                    animation-iteration-count: 1;
+                    animation-fill-mode: forwards;
                 }
                 img:nth-of-type(2){
                     margin-left: 15px;
+                    animation: fadeIn ease 3s;
+                    animation-iteration-count: 1;
+                    animation-fill-mode: forwards;
                 }
                 img:nth-of-type(3){
                     margin-top: -10px;
                     margin-bottom: 35px;
+                    animation: fadeIn ease 3s;
+                    animation-iteration-count: 1;
+                    animation-fill-mode: forwards;
                 }
                 img:last-of-type{
                     margin-right: 14px;
+                    animation: fadeIn ease 3s;
+                    animation-iteration-count: 1;
+                    animation-fill-mode: forwards;
                 }
             }
             &-end {
@@ -975,6 +1096,9 @@ a {
             width: 383.004px;
             margin-top: 21px;
             margin-left: 14px;
+            animation: fadeIn ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
         }
         img:nth-of-type(2) {
             width: 50px;
@@ -983,6 +1107,9 @@ a {
         img:last-of-type {
             width: 405.999px;
             padding-top: 113.004px;
+            animation: fadeIn ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
         }
     }
     &-text {
@@ -1133,6 +1260,14 @@ a {
                 img {
                     width: 786px;
                 }
+                img.trans-animated {
+                    animation-name: scale3dImg;
+                    -webkit-animation-duration: 1.5s;
+                    animation-duration: 1.5s;
+                    -webkit-animation-fill-mode: both;
+                    animation-fill-mode: both;
+                    animation-iteration-count: infinite;
+                }
             }
             p {
                 width: 80%;
@@ -1192,6 +1327,9 @@ a {
                 margin-left: 20px;
                 position: relative;
                 z-index: 2;
+                animation: fadeIn ease 3s;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
             }
             img:last-of-type {
                 margin-top: -12px;
@@ -1208,6 +1346,11 @@ a {
                 position: relative;
                 width: 567px;
                 z-index: 2;
+            }
+            img:first-of-type {
+                animation: fadeIn ease 3s;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
             }
             img:last-of-type {
                 position: absolute;
@@ -1228,6 +1371,9 @@ a {
                 width: 814px;
                 position: relative;
                 z-index: 2;
+                animation: fadeIn ease 3s;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
             }
             img:nth-of-type(2) {
                 width: 532px;
@@ -1256,6 +1402,9 @@ a {
             margin-top: 17px;
             img {
                 width: 557px;
+                animation: fadeIn ease 3s;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
             }
         }
         .cus-bubbles-user4 {
@@ -1269,6 +1418,9 @@ a {
             position: relative;
             top: -37px;
             left: 49px;
+            animation: fadeIn ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
         }
     }
     
@@ -1328,6 +1480,9 @@ a {
                 position: relative;
                 width: 50%;
                 text-align: center;
+                animation: fadeIn ease 3s;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
                 .reasons-img {
                     min-height: 330px;
                     display: flex;
@@ -1505,6 +1660,9 @@ a {
             margin-bottom: 16px;
             position: relative;
             text-align: center;
+            animation: fadeIn ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
             img:last-child {
                 position: absolute;
                 right: 32px;
@@ -1614,6 +1772,14 @@ a {
             a {
                 img {
                     width: 786px;
+                }
+                img.trans-animated {
+                    animation-name: scale3dImg;
+                    -webkit-animation-duration: 1.5s;
+                    animation-duration: 1.5s;
+                    -webkit-animation-fill-mode: both;
+                    animation-fill-mode: both;
+                    animation-iteration-count: infinite;
                 }
             }
             p {
@@ -1731,6 +1897,9 @@ a {
                 font-style: normal;
                 font-weight: 700;
                 line-height: 1; /* 221.61px */
+                animation: fadeIn ease 3s;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
             }
             p:last-child {
                 color: #FFF;
@@ -3087,6 +3256,7 @@ a {
                 width: 90.667vw;
                 top: -4.111vw;
                 left: 5.444vw;
+
             }
         }
         

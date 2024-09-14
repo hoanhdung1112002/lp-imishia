@@ -62,6 +62,48 @@ a {
   text-decoration: none;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transition: all 0.8s ease-in-out 0s;
+    -webkit-transition: all 0.8s ease-in-out 0s;
+  }
+  50% {
+    transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+  }
+}
+@keyframes scale3dImg {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  5% {
+    -webkit-transform: scale3d(0.91, 0.84, 0.85);
+    transform: scale3d(0.91, 0.84, 0.85);
+  }
+  10% {
+    -webkit-transform: scale3d(0.93, 0.86, 0.84);
+    transform: scale3d(0.93, 0.86, 0.84);
+  }
+  26% {
+    -webkit-transform: scale3d(0.94, 0.97, 0.98);
+    transform: scale3d(0.94, 0.97, 0.98);
+  }
+  80% {
+    -webkit-transform: scale3d(0.97, 0.99, 0.91);
+    transform: scale3d(0.97, 0.99, 0.91);
+  }
+  100% {
+    -webkit-transform: scale3d(0.99, 0.91, 0.99);
+    transform: scale3d(0.99, 0.91, 0.99);
+  }
+}
 .wrapper {
   max-width: 900px;
   width: 100%;
@@ -96,6 +138,14 @@ a {
   width: 554px;
   display: block;
   object-fit: cover;
+}
+.header-line img.trans-animated {
+  animation-name: scale3dImg;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
 }
 .header-line p {
   position: absolute;
@@ -206,6 +256,9 @@ a {
 .hero-services li img {
   width: 256px;
   object-fit: cover;
+  animation: fadeIn ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .hero-services li strong {
   color: var(--sub, #D5A712);
@@ -234,6 +287,9 @@ a {
 }
 .hero-fixed .fixed-doctor img {
   width: 241px;
+  animation: fadeIn ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .hero-fixed .fixed-text p:first-of-type {
   color: var(--ed, #2B5174);
@@ -244,6 +300,9 @@ a {
   font-weight: 700;
   line-height: 40px; /* 146.752% */
   letter-spacing: 1.908px;
+  animation: fadeIn ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .hero-fixed .fixed-text p:last-of-type {
   color: #06C755;
@@ -254,6 +313,9 @@ a {
   font-weight: 900;
   line-height: 175%; /* 81.982px */
   letter-spacing: 1.874px;
+  animation: fadeIn ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .hero-fixed .fixed-text p:last-of-type span {
   font-size: 53.416px;
@@ -262,6 +324,14 @@ a {
 .hero-fixed-cta {
   position: relative;
   text-align: center;
+}
+.hero-fixed-cta img.trans-animated {
+  animation-name: scale3dImg;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
 }
 .hero-fixed-cta p {
   width: 80%;
@@ -321,6 +391,9 @@ a {
   position: absolute;
   top: 58px;
   left: 44px;
+  animation: fadeIn ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .coution-content p {
   color: #FFF;
@@ -339,14 +412,23 @@ a {
 }
 .coution-content > img:nth-of-type(1) {
   margin-bottom: 3px;
+  animation: fadeIn ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .coution-content > img:nth-of-type(2) {
   width: 606px;
   margin-left: 10px;
+  animation: fadeIn ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .coution-content > img:nth-of-type(3) {
   width: 678px;
   margin-left: 28px;
+  animation: fadeIn ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .coution-content .caution-user {
   margin-top: -10px;
@@ -370,6 +452,11 @@ a {
 .coution .caution-box {
   margin-left: 35px;
   margin-top: -97px;
+}
+.coution .caution-box img {
+  animation: fadeIn ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .coution .caution-box img:last-child {
   margin-top: -58px;
@@ -515,6 +602,11 @@ a {
   display: flex;
   align-items: flex-end;
 }
+.check-content .check-main > div:first-of-type img {
+  animation: fadeIn ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
 .check-content .check-main > p:first-of-type {
   max-width: 452px;
   margin-bottom: 31px;
@@ -560,6 +652,9 @@ a {
 }
 .check-content .check-main .check-doctor img {
   width: 465px;
+  animation: fadeIn ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .check-content .check-main .check-circle {
   position: relative;
@@ -616,6 +711,14 @@ a {
   position: relative;
   text-align: center;
   margin-top: -280px;
+}
+.check-content .check-main .check-fixed-cta img.trans-animated {
+  animation-name: scale3dImg;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
 }
 .check-content .check-main .check-fixed-cta p {
   width: 80%;
@@ -725,16 +828,28 @@ a {
 .solution .benefits-content .benefits-imgs img:first-of-type {
   margin-right: 50px;
   margin-bottom: 30px;
+  animation: fadeIn ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .solution .benefits-content .benefits-imgs img:nth-of-type(2) {
   margin-left: 15px;
+  animation: fadeIn ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .solution .benefits-content .benefits-imgs img:nth-of-type(3) {
   margin-top: -10px;
   margin-bottom: 35px;
+  animation: fadeIn ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .solution .benefits-content .benefits-imgs img:last-of-type {
   margin-right: 14px;
+  animation: fadeIn ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .solution .benefits-content-end {
   position: relative;
@@ -950,6 +1065,9 @@ a {
   width: 383.004px;
   margin-top: 21px;
   margin-left: 14px;
+  animation: fadeIn ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .effect-box img:nth-of-type(2) {
   width: 50px;
@@ -958,6 +1076,9 @@ a {
 .effect-box img:last-of-type {
   width: 405.999px;
   padding-top: 113.004px;
+  animation: fadeIn ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .effect-text {
   position: relative;
@@ -1102,6 +1223,14 @@ a {
 .effect-fixed-cta a img {
   width: 786px;
 }
+.effect-fixed-cta a img.trans-animated {
+  animation-name: scale3dImg;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
 .effect-fixed-cta p {
   width: 80%;
   position: absolute;
@@ -1153,6 +1282,9 @@ a {
   margin-left: 20px;
   position: relative;
   z-index: 2;
+  animation: fadeIn ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .customers-box .customers-bubbles01 img:last-of-type {
   margin-top: -12px;
@@ -1169,6 +1301,11 @@ a {
   position: relative;
   width: 567px;
   z-index: 2;
+}
+.customers-box .customer-bubbles02 img:first-of-type {
+  animation: fadeIn ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .customers-box .customer-bubbles02 img:last-of-type {
   position: absolute;
@@ -1189,6 +1326,9 @@ a {
   width: 814px;
   position: relative;
   z-index: 2;
+  animation: fadeIn ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .customers-box .customer-qa img:nth-of-type(2) {
   width: 532px;
@@ -1217,6 +1357,9 @@ a {
 }
 .customers-box .customer-bubbles03 img {
   width: 557px;
+  animation: fadeIn ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .customers-box .cus-bubbles-user4 {
   width: 297px;
@@ -1229,6 +1372,9 @@ a {
   position: relative;
   top: -37px;
   left: 49px;
+  animation: fadeIn ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .reasons {
@@ -1287,6 +1433,9 @@ a {
   position: relative;
   width: 50%;
   text-align: center;
+  animation: fadeIn ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .reasons .reasons-content ul li .reasons-img {
   min-height: 330px;
@@ -1436,6 +1585,9 @@ a {
   margin-bottom: 16px;
   position: relative;
   text-align: center;
+  animation: fadeIn ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .emishialine-box .emishialine-item img:last-child {
   position: absolute;
@@ -1539,6 +1691,14 @@ a {
 }
 .emishialine-fixed-cta a img {
   width: 786px;
+}
+.emishialine-fixed-cta a img.trans-animated {
+  animation-name: scale3dImg;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
 }
 .emishialine-fixed-cta p {
   width: 80%;
@@ -1652,6 +1812,9 @@ a {
   font-style: normal;
   font-weight: 700;
   line-height: 1; /* 221.61px */
+  animation: fadeIn ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .steps-head-text p:last-child {
   color: #FFF;

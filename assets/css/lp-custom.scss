@@ -55,23 +55,6 @@ a {
     text-decoration: none;
 }
 
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-        transition: all 0.8s ease-in-out 0s;
-        -webkit-transition: all 0.8s ease-in-out 0s
-    }
-    50% {
-        transform: translateY(20px);
-        -webkit-transform: translateY(20px)
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-        -webkit-transform: translateY(0)
-    }
-}
-
 @keyframes scale3dImg {
     0% {
         -webkit-transform: scale3d(1, 1, 1);
@@ -262,12 +245,9 @@ a {
             img {
                 width: 256px;
                 object-fit: cover;
-                animation: fadeIn ease 2s;
-                animation-iteration-count: 1;
-                animation-fill-mode: forwards;
             }
             strong {
-                color: var(--sub, #D5A712);
+                color: #D5A712;
                 font-family: "Noto Sans JP", sans-serif;
                 font-size: 50px;
                 font-style: normal;
@@ -297,14 +277,11 @@ a {
         .fixed-doctor {
             img {
                 width: 241px;
-                animation: fadeIn ease 2s;
-                animation-iteration-count: 1;
-                animation-fill-mode: forwards;
             }
         }
         .fixed-text {
             p:first-of-type {
-                color: var(--ed, #2B5174);
+                color: #2B5174;
                 text-align: center;
                 font-family: "Noto Sans JP";
                 font-size: 27.257px;
@@ -312,9 +289,6 @@ a {
                 font-weight: 700;
                 line-height: 40px; /* 146.752% */
                 letter-spacing: 1.908px;
-                animation: fadeIn ease 2s;
-                animation-iteration-count: 1;
-                animation-fill-mode: forwards;
             }
             p:last-of-type {
                 color: #06C755;
@@ -325,9 +299,6 @@ a {
                 font-weight: 900;
                 line-height: 175%; /* 81.982px */
                 letter-spacing: 1.874px;
-                animation: fadeIn ease 2s;
-                animation-iteration-count: 1;
-                animation-fill-mode: forwards;
                 span {
                     font-size: 53.416px;
                     letter-spacing: 2.137px;
@@ -406,9 +377,6 @@ a {
                 position: absolute;
                 top: 58px;
                 left: 44px;
-                animation: fadeIn ease 2s;
-                animation-iteration-count: 1;
-                animation-fill-mode: forwards;
             }  
         }
         p {
@@ -428,23 +396,14 @@ a {
         }
         > img:nth-of-type(1) {
             margin-bottom: 3px;
-            animation: fadeIn ease 2s;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
         }
         > img:nth-of-type(2) {
             width: 606px;
             margin-left: 10px;
-            animation: fadeIn ease 2s;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
         }
         > img:nth-of-type(3) {
             width: 678px;
             margin-left: 28px;
-            animation: fadeIn ease 2s;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
         }
         .caution-user {
             margin-top: -10px;
@@ -470,9 +429,6 @@ a {
         margin-left: 35px;
         margin-top: -97px;
         img {
-            animation: fadeIn ease 3s;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
         }
         img:last-child {
             margin-top: -58px;
@@ -619,17 +575,12 @@ a {
                 margin-bottom: 8px;
                 display: flex;
                 align-items: flex-end;
-                img {
-                    animation: fadeIn ease 2s;
-                    animation-iteration-count: 1;
-                    animation-fill-mode: forwards;
-                }
             }
             > p:first-of-type {
                 max-width: 452px;
                 margin-bottom: 31px;
                 margin-left: 240px;
-                color: var(--ed, #2B5174);
+                color: #2B5174;
                 text-align: center;
                 font-family: "Noto Sans JP";
                 font-size: 45.117px;
@@ -638,7 +589,7 @@ a {
                 line-height: normal;
             }
             span {
-                color: var(--ed, #2B5174);
+                color: #2B5174;
                 font-family: "Noto Sans JP";
                 font-size: 60.855px;
                 font-style: normal;
@@ -648,7 +599,7 @@ a {
             p:nth-of-type(2) {
                 margin-left: 246px;
                 margin-bottom: 57px;
-                color: var(--ed, #2B5174);
+                color: #2B5174;
                 font-family: "Noto Sans JP";
                 font-size: 61px;
                 font-style: normal;
@@ -669,9 +620,6 @@ a {
                 margin-bottom: -227px;
                 img {
                     width: 465px;
-                    animation: fadeIn ease 3s;
-                    animation-iteration-count: 1;
-                    animation-fill-mode: forwards;
                 }
             }
             .check-circle {
@@ -692,7 +640,7 @@ a {
                     max-width: 313px;
                     margin: 0 auto;
                     margin-bottom: 8px;
-                    color: var(--ed, #2B5174);
+                    color: #2B5174;
                     text-align: center;
                     font-family: "Noto Sans JP";
                     font-size: 21.932px;
@@ -784,7 +732,7 @@ a {
         h3 {
             margin-bottom: 62px;
             background: url("../images/solution/head-line.webp") center center no-repeat ;
-            color: var(--ed, #2B5174);
+            color: #2B5174;
             background-size: 847px;
             text-align: center;
             font-family: "Noto Sans JP";
@@ -848,28 +796,16 @@ a {
                 img:first-of-type {
                     margin-right: 50px;
                     margin-bottom: 30px;
-                    animation: fadeIn ease 3s;
-                    animation-iteration-count: 1;
-                    animation-fill-mode: forwards;
                 }
                 img:nth-of-type(2){
                     margin-left: 15px;
-                    animation: fadeIn ease 3s;
-                    animation-iteration-count: 1;
-                    animation-fill-mode: forwards;
                 }
                 img:nth-of-type(3){
                     margin-top: -10px;
                     margin-bottom: 35px;
-                    animation: fadeIn ease 3s;
-                    animation-iteration-count: 1;
-                    animation-fill-mode: forwards;
                 }
                 img:last-of-type{
                     margin-right: 14px;
-                    animation: fadeIn ease 3s;
-                    animation-iteration-count: 1;
-                    animation-fill-mode: forwards;
                 }
             }
             &-end {
@@ -882,7 +818,7 @@ a {
                     top: 46%;
                     left: 51%;
                     transform: translate(-50%, -50%);
-                    color: var(--black, #5F5F5F);
+                    color: #5F5F5F;
                     text-align: center;
                     font-family: "Noto Sans JP";
                     font-size: 28px;
@@ -892,7 +828,7 @@ a {
                     letter-spacing: 1.404px;
                     white-space: nowrap;
                     span {
-                        color: var(--black, #5F5F5F);
+                        color: #5F5F5F;
                         font-family: "Noto Sans JP";
                         font-size: 28px;
                         font-style: normal;
@@ -919,7 +855,7 @@ a {
             p:last-of-type {
                 margin-right: 45px;
                 text-align: right;
-                color: var(--black, #5F5F5F);
+                color: #5F5F5F;
                 text-align: right;
                 font-family: 'Yu Gothic';
                 font-size: 28px;
@@ -1025,7 +961,7 @@ a {
                         td {
                             width: 320.004px;
                             flex-shrink: 0;
-                            color: var(--ed_orange, #FF783F);
+                            color: #FF783F;
                             text-align: center;
                             font-family: 'Yu Gothic';
                             font-size: 26.991px;
@@ -1053,7 +989,7 @@ a {
                         }
                     }
                     tr.tr-black.txt-small {
-                        height: 164px;
+                        height: 190px;
                         margin-bottom: 0;
                         td {
                             font-size: 23.391px;
@@ -1096,9 +1032,6 @@ a {
             width: 383.004px;
             margin-top: 21px;
             margin-left: 14px;
-            animation: fadeIn ease 3s;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
         }
         img:nth-of-type(2) {
             width: 50px;
@@ -1107,9 +1040,6 @@ a {
         img:last-of-type {
             width: 405.999px;
             padding-top: 113.004px;
-            animation: fadeIn ease 3s;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
         }
     }
     &-text {
@@ -1118,7 +1048,7 @@ a {
         margin-top: -62px;
         margin-right: 84px;
         display: inline-block;
-        color: var(--ed, #2B5174);
+        color: #2B5174;
         font-family: "Noto Sans JP";
         font-size: 103.608px;
         font-style: normal;
@@ -1128,7 +1058,7 @@ a {
             position: absolute;
             content: "";
             height: 11px;
-            background: var(--sub, #E9D25D);
+            background: #E9D25D;
             bottom: 16px;
             left: 0;
             right: 0;
@@ -1174,7 +1104,7 @@ a {
         margin-left: 50px;
         margin-right: 50px;
         text-align: left;
-        color: var(--dark-gray, #5F5F5F);
+        color: #5F5F5F;
         font-family: "Noto Sans JP";
         font-size: 19.998px;
         font-style: normal;
@@ -1229,7 +1159,7 @@ a {
         }
         .fixed-text {
             p:first-of-type {
-                color: var(--ed, #2B5174);
+                color: #2B5174;
                 text-align: center;
                 font-family: "Noto Sans JP";
                 font-size: 27.257px;
@@ -1308,7 +1238,7 @@ a {
         h2 {
             padding-top: 80px;
             margin-bottom: 8px;
-            color: var(--key-color, var(--ed, #2B5174));
+            color: #2B5174;
             text-align: center;
             font-family: "Noto Sans JP";
             font-size: 90px;
@@ -1327,9 +1257,6 @@ a {
                 margin-left: 20px;
                 position: relative;
                 z-index: 2;
-                animation: fadeIn ease 3s;
-                animation-iteration-count: 1;
-                animation-fill-mode: forwards;
             }
             img:last-of-type {
                 margin-top: -12px;
@@ -1348,9 +1275,6 @@ a {
                 z-index: 2;
             }
             img:first-of-type {
-                animation: fadeIn ease 3s;
-                animation-iteration-count: 1;
-                animation-fill-mode: forwards;
             }
             img:last-of-type {
                 position: absolute;
@@ -1371,9 +1295,6 @@ a {
                 width: 814px;
                 position: relative;
                 z-index: 2;
-                animation: fadeIn ease 3s;
-                animation-iteration-count: 1;
-                animation-fill-mode: forwards;
             }
             img:nth-of-type(2) {
                 width: 532px;
@@ -1402,9 +1323,6 @@ a {
             margin-top: 17px;
             img {
                 width: 557px;
-                animation: fadeIn ease 3s;
-                animation-iteration-count: 1;
-                animation-fill-mode: forwards;
             }
         }
         .cus-bubbles-user4 {
@@ -1418,9 +1336,6 @@ a {
             position: relative;
             top: -37px;
             left: 49px;
-            animation: fadeIn ease 3s;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
         }
     }
     
@@ -1436,7 +1351,7 @@ a {
         > p:first-of-type {
             margin-bottom: 10px;
             margin-top: -16px;
-            color: var(--ed, #2B5174);
+            color: #2B5174;
             text-align: center;
             font-family: "Noto Sans JP";
             font-size: 49.464px;
@@ -1448,7 +1363,7 @@ a {
         > p:last-of-type {
             margin-top: -42px;
             margin-bottom: 27px;
-            color: var(--ed, #2B5174);
+            color: #2B5174;
             font-family: "Noto Sans JP";
             font-size: 54.956px;
             font-style: normal;
@@ -1480,9 +1395,6 @@ a {
                 position: relative;
                 width: 50%;
                 text-align: center;
-                animation: fadeIn ease 3s;
-                animation-iteration-count: 1;
-                animation-fill-mode: forwards;
                 .reasons-img {
                     min-height: 330px;
                     display: flex;
@@ -1645,7 +1557,7 @@ a {
         > p {
             margin-top: 43px;
             margin-bottom: 11px;
-            color: var(--dark-gray, #5F5F5F);
+            color: #5F5F5F;
             text-align: center;
             font-family: "Noto Sans JP";
             font-size: 27.773px;
@@ -1660,9 +1572,6 @@ a {
             margin-bottom: 16px;
             position: relative;
             text-align: center;
-            animation: fadeIn ease 3s;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
             img:last-child {
                 position: absolute;
                 right: 32px;
@@ -1742,7 +1651,7 @@ a {
         }
         .fixed-text {
             p:first-of-type {
-                color: var(--ed, #2B5174);
+                color: #2B5174;
                 text-align: center;
                 font-family: "Noto Sans JP";
                 font-size: 27.257px;
@@ -1849,7 +1758,7 @@ a {
         }
        > p:nth-of-type(1) {
             margin-top: -12px;
-            color: var(--white, #FFF);
+            color: #FFF;
             text-align: center;
             font-family: "Noto Sans JP";
             font-size: 45px;
@@ -1861,7 +1770,7 @@ a {
                 margin-bottom: 29.997px;
             }
             span {
-                color: var(--sub, #d5a712);
+                color: #d5a712;
                 text-align: center;
                 font-family: "Merriweather";
                 font-size: 130px;
@@ -1878,7 +1787,7 @@ a {
                 position: relative;
                 top: 23px;
                 left: -23px;
-                color: var(--white, #FFF);
+                color: #FFF;
                 font-family: "Noto Sans JP";
                 font-size: 50px;
                 font-style: normal;
@@ -1890,16 +1799,13 @@ a {
                 position: relative;
                 top: -20px;
                 right: 20px;
-                color: var(--sub, #D5A712);
+                color: #D5A712;
                 text-align: center;
                 font-family: "Merriweather";
                 font-size: 130.359px;
                 font-style: normal;
                 font-weight: 700;
                 line-height: 1; /* 221.61px */
-                animation: fadeIn ease 3s;
-                animation-iteration-count: 1;
-                animation-fill-mode: forwards;
             }
             p:last-child {
                 color: #FFF;
@@ -1938,7 +1844,7 @@ a {
                     padding-left: 155px;
                     text-align: left;
                     span {
-                        color: var(--key-color, var(--ed, #2B5174));
+                        color: #2B5174;
                         font-family: "Noto Sans JP";
                         font-size: 50.822px;
                         font-style: italic;
@@ -1963,7 +1869,7 @@ a {
                 }
                 .card-text {
                     text-align: left;
-                    color: var(--key-color, var(--ed, #2B5174));
+                    color: #2B5174;
                     font-family: "Noto Sans JP";
                     font-size: 34.002px;
                     font-style: normal;
@@ -1971,7 +1877,7 @@ a {
                     line-height: 160%; /* 54.4px */
                     padding: 40px 50px 10px 50px;
                     span {
-                        color: var(--keycolur, var(--ed, #FF783F));
+                        color: #FF783F;
                         font-family: "Noto Sans JP";
                         font-size: 34.002px;
                         font-style: normal;
@@ -1985,7 +1891,7 @@ a {
                     justify-content: center;
                     li {
                         p {
-                            color: var(--dark-gray, #5F5F5F);
+                            color: #5F5F5F;
                             text-align: center;
                             font-family: "Noto Sans JP";
                             font-size: 27.999px;
@@ -2072,7 +1978,7 @@ a {
                         p {
                             padding: 0 50px;
                             text-align: left;
-                            color: var(--key-color, var(--ed, #2B5174));
+                            color: #2B5174;
                             font-family: "Noto Sans JP";
                             font-size: 29.997px;
                             font-style: normal;
@@ -2090,7 +1996,7 @@ a {
                             position: relative;
                             padding: 42.003px 50px 39.996px 50px;
                             margin: 0 40px;
-                            color: var(--key-color, var(--ed, #2B5174));
+                            color: #2B5174;
                             font-family: "Noto Sans JP";
                             font-size: 29.997px;
                             font-style: normal;
@@ -2431,7 +2337,7 @@ a {
         margin: 0 auto;
     }
     p {
-        color: var(--black, #000);
+        color: #000;
         text-align: center;
         font-family: "Noto Sans JP";
         font-size: 24.003px;
@@ -3917,7 +3823,7 @@ a {
             margin: 0 auto;
         }
         p {
-            color: var(--black, #000);
+            color: #000;
             text-align: center;
             font-family: "Noto Sans JP";
             font-size: 2.667vw;
@@ -3929,3 +3835,55 @@ a {
         }
     }
 }
+
+//animation
+/* Animation Fade-in-up */
+.animated {
+    opacity: 0;
+    transition: all 0.8s ease-in-out;
+  }
+
+  .fade-in-up {
+    transform: translateY(20px);
+  }
+
+  .fade-in-up.run-animated {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Animation Zoom-in */
+  .zoom-in {
+    transform: scale(0.7);
+  }
+
+  .zoom-in.run-animated {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  /* Flash animation */
+  .animated-flash {
+    opacity: 0.5;
+    transition: opacity 1s ease-in-out;
+  }
+
+  .animated-flash.run-animated {
+    opacity: 1;
+  }
+
+  /* Animation Delays */
+  .animated-delay1 {
+    transition: all 0.3s ease-in-out 0.3s;
+    -webkit-transition: all 0.3s ease-in-out 0.3s;
+  }
+
+  .animated-delay2 {
+    transition: all 0.4s ease-in-out 0.4s;
+    -webkit-transition: all 0.4s ease-in-out 0.4s;
+  }
+
+  .animated-delay3 {
+    transition: all 0.6s ease-in-out 0.6s;
+    -webkit-transition: all 0.6s ease-in-out 0.6s;
+  }

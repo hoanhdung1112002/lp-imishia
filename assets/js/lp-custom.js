@@ -53,4 +53,31 @@ jQuery(function($){
         $(this).closest("li").removeClass("active");
         }
     });
+
+    //animation
+    var windowHeight = $(window).height();
+  
+        $(window).scroll(function() {
+          var scrollPosition = $(window).scrollTop();
+  
+          $('.animated').each(function() {
+            var elementPosition = $(this).offset().top;
+            
+            if (scrollPosition > elementPosition - windowHeight / 1.6) {
+              $(this).addClass('run-animated');
+            }
+          });
+        });
+  
+        //flash animation auto
+        function animatedFlash() {
+          setInterval(function () {
+            $('.animated-flash').addClass('run-animated');
+          }, 2000);
+          setInterval(function () {
+            $('.animated-flash').removeClass('run-animated');
+          }, 3000);
+        }
+  
+        animatedFlash();
 });

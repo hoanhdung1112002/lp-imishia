@@ -24,7 +24,6 @@ jQuery(function($){
         }]
     });
 
-    //faq
     $('.faq-title').on("click", function () {
         var $content = $(this).closest(".faq-item").find(".faq-content");
         var $faqplus = $(this).closest(".faq-item").find(".faq-plus");
@@ -54,7 +53,6 @@ jQuery(function($){
         }
     });
 
-    //animation
     var windowHeight = $(window).height();
   
         $(window).scroll(function() {
@@ -68,8 +66,7 @@ jQuery(function($){
             }
           });
         });
-  
-        //flash animation auto
+
         function animatedFlash() {
           setInterval(function () {
             $('.animated-flash').addClass('run-animated');

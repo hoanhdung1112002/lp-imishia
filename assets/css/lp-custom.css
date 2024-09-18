@@ -286,7 +286,7 @@ ul, li {
   font-size: 27.5px;
   font-weight: 700;
   line-height: 146.752%;
-  letter-spacing: 1.908px;
+  letter-spacing: 2px;
 }
 .lp-emishia .hero-fixed .fixed-text p:last-of-type {
   padding-right: 18px;
@@ -296,11 +296,11 @@ ul, li {
   font-size: 47px;
   font-weight: 900;
   line-height: 175%;
-  letter-spacing: 1.874px;
+  letter-spacing: 1.9px;
 }
 .lp-emishia .hero-fixed .fixed-text p:last-of-type span {
   font-size: 53.5px;
-  letter-spacing: 2.137px;
+  letter-spacing: 2.2px;
 }
 .lp-emishia .hero-fixed-cta {
   position: relative;
@@ -326,12 +326,12 @@ ul, li {
   font-size: 26.5px;
   font-weight: 700;
   line-height: 175%;
-  letter-spacing: 1.843px;
+  letter-spacing: 1.84px;
 }
 .lp-emishia .hero-fixed-cta span {
   color: #FFF100;
   font-size: 42px;
-  letter-spacing: 2.925px;
+  letter-spacing: 2.9px;
 }
 .lp-emishia .hero-fixed-cta span small {
   font-size: 35px;
@@ -379,7 +379,7 @@ ul, li {
   font-size: 35px;
   font-weight: 500;
   line-height: 220%;
-  letter-spacing: 1.746px;
+  letter-spacing: 1.75px;
 }
 .lp-emishia .coution-content p:nth-of-type(1) {
   margin-right: 23px;
@@ -405,7 +405,7 @@ ul, li {
   font-size: 35px;
   font-weight: 500;
   line-height: 170%;
-  letter-spacing: 2.799px;
+  letter-spacing: 2.8px;
 }
 .lp-emishia .coution-content .coution-satisfaction span {
   display: inline-block;
@@ -428,7 +428,7 @@ ul, li {
   position: absolute;
 }
 .lp-emishia .coution .coution-concern-item img:nth-child(1) {
-  width: 421.002px;
+  width: 421px;
   top: -27px;
   right: -27px;
 }
@@ -539,15 +539,15 @@ ul, li {
 }
 .lp-emishia .check-content .check-form form p {
   color: #2B5174;
-  font-size: 32.1px;
+  font-size: 32px;
   font-weight: 700;
   line-height: 170%;
-  letter-spacing: 1.602px;
+  letter-spacing: 1.6px;
   font-family: "Noto Sans JP";
 }
 .lp-emishia .check-content .check-form form span {
   font-size: 38px;
-  letter-spacing: 1.899px;
+  letter-spacing: 1.9px;
 }
 .lp-emishia .check-content .check-form .form-check-gr {
   position: relative;
@@ -646,7 +646,7 @@ ul, li {
   font-size: 22px;
   font-weight: 700;
   line-height: 146.752%;
-  letter-spacing: 1.535px;
+  letter-spacing: 1.5px;
   white-space: nowrap;
 }
 .lp-emishia .check-content .check-main .check-circle-text p:last-of-type {
@@ -658,7 +658,7 @@ ul, li {
   font-size: 47.6px;
   font-weight: 900;
   line-height: 110%;
-  letter-spacing: 1.905px;
+  letter-spacing: 1.9px;
 }
 .lp-emishia .check-content .check-main .check-circle-text p:last-of-type span {
   color: #06C755;
@@ -668,7 +668,7 @@ ul, li {
 .lp-emishia .check-content .check-main .check-circle-text p:last-of-type small {
   color: #06C755;
   font-size: 54.5px;
-  letter-spacing: 2.172px;
+  letter-spacing: 2.2px;
 }
 .lp-emishia .check-content .check-main .check-fixed-cta {
   position: relative;
@@ -694,7 +694,7 @@ ul, li {
   font-family: "Noto Sans JP";
   font-size: 26.5px;
   font-weight: 700;
-  letter-spacing: 1.845px;
+  letter-spacing: 1.8px;
 }
 .lp-emishia .check-content .check-main .check-fixed-cta span {
   color: #FFF100;
@@ -703,7 +703,7 @@ ul, li {
   font-size: 42px;
   font-weight: 700;
   line-height: 175%;
-  letter-spacing: 2.925px;
+  letter-spacing: 2.9px;
 }
 .lp-emishia .solution-container {
   position: relative;
@@ -729,7 +729,7 @@ ul, li {
   font-size: 45px;
   font-weight: 700;
   line-height: normal;
-  letter-spacing: 4.509px;
+  letter-spacing: 4.5px;
 }
 .lp-emishia .solution-content .solution-top {
   position: relative;
@@ -817,7 +817,7 @@ ul, li {
   font-size: 28px;
   font-weight: 500;
   line-height: 180%;
-  letter-spacing: 1.404px;
+  letter-spacing: 1.4px;
   white-space: nowrap;
 }
 .lp-emishia .solution .benefits-content-end p span {
@@ -826,7 +826,7 @@ ul, li {
   font-size: 28px;
   font-weight: 700;
   line-height: 180%;
-  letter-spacing: 1.404px;
+  letter-spacing: 1.4px;
 }
 .lp-emishia .solution .benefits-content-end .benefits-end-check-ic {
   left: 120px;
@@ -864,10 +864,10 @@ ul, li {
   position: sticky;
   left: -3px;
   z-index: 10;
-  width: 223.098px;
-  height: 779.044px;
+  width: 223px;
+  height: 779px;
   flex-shrink: 0;
-  border-radius: 16.551px 0px 0px 16.551px;
+  border-radius: 16.5px 0px 0px 16.5px;
   background: var(--ed, #2B5174);
 }
 .lp-emishia .solution .benefits .comparison-container ul li {
@@ -886,7 +886,7 @@ ul, li {
   left: 50%;
   transform: translateX(-50%);
   bottom: 0;
-  height: 3.996px;
+  height: 4px;
   width: 85%;
   background-color: #fff;
 }
@@ -912,16 +912,16 @@ ul, li {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 320.256px;
-  height: 53.973px;
+  width: 320px;
+  height: 54px;
   flex-shrink: 0;
   color: #FFF;
   text-align: center;
   font-family: "Yu Gothic";
   font-size: 27px;
   font-weight: 700;
-  line-height: 53.973px;
-  border-radius: 10.791px;
+  line-height: 54px;
+  border-radius: 10.8px;
   background-color: #FF783F;
 }
 .lp-emishia .solution .benefits .comparison-container table thead tr th::after {
@@ -949,7 +949,7 @@ ul, li {
   flex-shrink: 0;
 }
 .lp-emishia .solution .benefits .comparison-container table tbody tr td {
-  width: 320.004px;
+  width: 320px;
   flex-shrink: 0;
   color: #FF783F;
   text-align: center;
@@ -967,7 +967,7 @@ ul, li {
   width: 270px;
   padding-top: 16px;
   text-align: left;
-  line-height: 32.382px;
+  line-height: 32.5px;
 }
 .lp-emishia .solution .benefits .comparison-container table tbody tr:last-child td:first-child {
   padding-left: 25px;
@@ -992,13 +992,13 @@ ul, li {
 .lp-emishia .effect-container h3 {
   background: url(../images/solution/head-line.webp) center center no-repeat;
   color: #2B5174;
-  background-size: 846.999px;
+  background-size: 847px;
   text-align: center;
   font-family: "Noto Sans JP";
   font-size: 45px;
   font-weight: 700;
   line-height: normal;
-  letter-spacing: 4.509px;
+  letter-spacing: 4.5px;
 }
 .lp-emishia .effect-content {
   text-align: center;
@@ -1010,7 +1010,7 @@ ul, li {
   overflow: hidden;
 }
 .lp-emishia .effect-box > img:first-of-type {
-  width: 383.004px;
+  width: 383px;
   margin-top: 10px;
   margin-left: 14px;
 }
@@ -1051,10 +1051,10 @@ ul, li {
 }
 .lp-emishia .effect-bottom-box {
   position: relative;
-  padding-bottom: 579.996px;
+  padding-bottom: 580px;
 }
 .lp-emishia .effect-bottom-box img:first-of-type {
-  width: 475.002px;
+  width: 475px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1144,7 +1144,7 @@ ul, li {
   font-size: 27.5px;
   font-weight: 700;
   line-height: 40px;
-  letter-spacing: 1.908px;
+  letter-spacing: 1.9px;
 }
 .lp-emishia .effect-fixed .fixed-text p:last-of-type {
   padding-right: 16px;
@@ -1157,8 +1157,8 @@ ul, li {
   letter-spacing: 1.874px;
 }
 .lp-emishia .effect-fixed .fixed-text p:last-of-type span {
-  font-size: 53.416px;
-  letter-spacing: 2.137px;
+  font-size: 53.5px;
+  letter-spacing: 2.2px;
 }
 .lp-emishia .effect-fixed-cta {
   position: relative;
@@ -1187,19 +1187,19 @@ ul, li {
   font-size: 26.5px;
   font-weight: 700;
   line-height: 175%;
-  letter-spacing: 1.843px;
+  letter-spacing: 1.85px;
 }
 .lp-emishia .effect-fixed-cta span {
   color: #FFF100;
   font-size: 42px;
-  letter-spacing: 2.925px;
+  letter-spacing: 2.93px;
 }
 .lp-emishia .effect-fixed-cta span small {
   font-size: 35px;
   letter-spacing: 2.45px;
 }
 .lp-emishia .customers-container {
-  padding-bottom: 46.998px;
+  padding-bottom: 47px;
   background-color: #FAEFBF;
 }
 .lp-emishia .customers-top {
@@ -1294,7 +1294,7 @@ ul, li {
 .lp-emishia .customers-box .cus-bubbles-user4 {
   width: 297px;
   position: relative;
-  left: -28.998px;
+  left: -29px;
   top: 16px;
 }
 .lp-emishia .customers-box .cus-bubbles04 {
@@ -1330,7 +1330,7 @@ ul, li {
   font-size: 55px;
   font-weight: 700;
   line-height: 170%;
-  letter-spacing: 2.748px;
+  letter-spacing: 2.8px;
 }
 .lp-emishia .reasons-head > p:last-of-type span {
   position: relative;
@@ -1584,7 +1584,7 @@ ul, li {
   font-size: 27.5px;
   font-weight: 700;
   line-height: 40px;
-  letter-spacing: 1.908px;
+  letter-spacing: 1.9px;
 }
 .lp-emishia .emishialine-fixed .fixed-text p:last-of-type {
   padding-right: 16px;
@@ -1594,11 +1594,11 @@ ul, li {
   font-size: 47px;
   font-weight: 900;
   line-height: 175%;
-  letter-spacing: 1.874px;
+  letter-spacing: 1.9px;
 }
 .lp-emishia .emishialine-fixed .fixed-text p:last-of-type span {
   font-size: 53.5px;
-  letter-spacing: 2.137px;
+  letter-spacing: 2.2px;
 }
 .lp-emishia .emishialine-fixed-cta {
   position: relative;
@@ -1627,12 +1627,12 @@ ul, li {
   font-size: 26.5px;
   font-weight: 700;
   line-height: 175%;
-  letter-spacing: 1.843px;
+  letter-spacing: 1.85px;
 }
 .lp-emishia .emishialine-fixed-cta span {
   color: #FFF100;
   font-size: 42px;
-  letter-spacing: 2.925px;
+  letter-spacing: 2.93px;
 }
 .lp-emishia .emishialine-fixed-cta span small {
   font-size: 35px;
@@ -1684,7 +1684,7 @@ ul, li {
   letter-spacing: 4.5px;
 }
 .lp-emishia .steps-head > p:nth-of-type(1).steps-head-text {
-  margin-bottom: 29.997px;
+  margin-bottom: 30px;
 }
 .lp-emishia .steps-head > p:nth-of-type(1) span {
   color: #d5a712;
@@ -1728,7 +1728,7 @@ ul, li {
   font-style: italic;
   font-weight: 700;
   line-height: 170%;
-  letter-spacing: 3.659px;
+  letter-spacing: 3.7px;
 }
 .lp-emishia .steps-content > ul {
   padding-top: 25px;
@@ -1865,9 +1865,9 @@ ul, li {
   line-height: 160%;
 }
 .lp-emishia .steps-content > ul li.card-item.item5 .card-content li p {
-  width: 520.002px;
+  width: 520px;
   position: relative;
-  padding: 42.003px 50px 39.996px 50px;
+  padding: 42px 50px 40px 50px;
   margin: 0 40px;
   color: #2B5174;
   font-family: "Noto Sans JP";
@@ -1880,8 +1880,8 @@ ul, li {
 .lp-emishia .steps-content > ul li.card-item.item5 .card-content li p::after {
   content: "";
   display: block;
-  width: 165.996px;
-  height: 237.996px;
+  width: 166px;
+  height: 238px;
   background-image: url(../images/steps/steps_05_nimotsu.webp);
   background-size: contain;
   background-repeat: no-repeat;
@@ -1921,14 +1921,14 @@ ul, li {
   padding-bottom: 20px;
 }
 .lp-emishia .slick-slider .slick-list {
-  padding: min(10vw, 90px) min(2.111vw, 19px) !important;
+  padding: 90px 19px !important;
   padding-bottom: 0 !important;
 }
 .lp-emishia .faq {
   margin-top: 49px;
 }
 .lp-emishia .faq-head {
-  margin-bottom: 53px;
+  margin-bottom: 56px;
 }
 .lp-emishia .faq-head-title {
   margin-bottom: 24px;
@@ -3348,14 +3348,14 @@ ul, li {
     padding-bottom: 2.222vw;
   }
   .lp-emishia .slick-slider .slick-list {
-    padding: min(10vw, 90px) min(2.111vw, 19px) !important;
+    padding: 10vw 2.111vw !important;
     padding-bottom: 0 !important;
   }
   .lp-emishia .faq {
     margin-top: 5.444vw;
   }
   .lp-emishia .faq-head {
-    margin-bottom: 5.889vw;
+    margin-bottom: 6.222vw;
   }
   .lp-emishia .faq-head-title {
     margin-bottom: 2.667vw;
@@ -3486,17 +3486,10 @@ ul, li {
   }
   .lp-emishia .footer-container {
     max-width: 84vw;
-    margin: 0 auto;
   }
   .lp-emishia .footer p {
-    color: #000;
-    text-align: center;
-    font-family: "Noto Sans JP";
     font-size: 2.667vw;
-    font-weight: 400;
-    line-height: 150%;
     letter-spacing: 0.08vw;
-    opacity: 0.5;
   }
 }
 

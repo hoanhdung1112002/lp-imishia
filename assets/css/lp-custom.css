@@ -1074,7 +1074,7 @@ ul, li {
 .lp-emishia .effect-table img:last-of-type {
   width: 354px;
   position: absolute;
-  bottom: 7px;
+  bottom: 4px;
   left: 44%;
   transform: translateX(-50%);
 }
@@ -2803,6 +2803,7 @@ ul, li {
   }
   .lp-emishia .effect-table img:last-of-type {
     width: 39.333vw;
+    bottom: 0;
   }
   .lp-emishia .effect-note {
     margin-top: 0.667vw;

@@ -1108,7 +1108,7 @@ ul, li {
         img:last-of-type {
             width: 354px;
             position: absolute;
-            bottom: 7px;
+            bottom: 4px;
             left: 44%;
             transform: translateX(-50%);
         }
@@ -3012,6 +3012,7 @@ ul, li {
                 }
                 img:last-of-type {
                     width: 39.333vw;
+                    bottom: 0;
                 }
             }
             &-note {

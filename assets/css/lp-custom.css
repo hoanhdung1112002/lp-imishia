@@ -2702,9 +2702,10 @@ ul, li {
   }
   .lp-emishia .solution .benefits .comparison-container table thead {
     padding-top: 1.444vw;
-    margin-bottom: 2.6vw;
+    margin-bottom: 3.111vw;
   }
   .lp-emishia .solution .benefits .comparison-container table thead tr {
+    margin-top: -0.222vw;
     margin-bottom: 1.444vw;
     gap: 0 2vw;
   }
@@ -2744,7 +2745,7 @@ ul, li {
     padding-left: 2.778vw;
   }
   .lp-emishia .solution .benefits .comparison-container table tbody tr.tr-black.txt-small {
-    height: 21.6vw;
+    height: 21.222vw;
   }
   .lp-emishia .solution .benefits .comparison-container table tbody tr.tr-black.txt-small td {
     font-size: 2.599vw;

@@ -2906,8 +2906,9 @@ ul, li {
                     table {
                         thead{
                             padding-top: 1.444vw;
-                            margin-bottom: 2.6vw;
+                            margin-bottom: 3.111vw;
                             tr {
+                                margin-top: -0.222vw;
                                 margin-bottom: 1.444vw;
                                 gap: 0 2vw;
                                 th {
@@ -2947,7 +2948,7 @@ ul, li {
                                 }
                             }
                             tr.tr-black.txt-small {
-                                height: 21.6vw;
+                                height: 21.222vw;
                                 td {
                                     font-size: 2.599vw;
                                 }
@@ -3847,3 +3848,4 @@ ul, li {
         }
     }
 }
+

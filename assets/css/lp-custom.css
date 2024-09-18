@@ -909,7 +909,9 @@ ul, li {
 }
 .lp-emishia .solution .benefits .comparison-container table thead tr th {
   position: relative;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 320.256px;
   height: 53.973px;
   flex-shrink: 0;
@@ -2700,7 +2702,7 @@ ul, li {
   }
   .lp-emishia .solution .benefits .comparison-container table thead {
     padding-top: 1.444vw;
-    margin-bottom: 1.111vw;
+    margin-bottom: 2.6vw;
   }
   .lp-emishia .solution .benefits .comparison-container table thead tr {
     margin-bottom: 1.444vw;
@@ -2742,7 +2744,7 @@ ul, li {
     padding-left: 2.778vw;
   }
   .lp-emishia .solution .benefits .comparison-container table tbody tr.tr-black.txt-small {
-    height: 21.222vw;
+    height: 21.6vw;
   }
   .lp-emishia .solution .benefits .comparison-container table tbody tr.tr-black.txt-small td {
     font-size: 2.599vw;

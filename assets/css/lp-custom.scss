@@ -936,7 +936,9 @@ ul, li {
                         gap: 0 18px;
                         th {
                             position: relative;
-                            display: inline-block;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
                             width: 320.256px;
                             height: 53.973px;
                             flex-shrink: 0;
@@ -2904,7 +2906,7 @@ ul, li {
                     table {
                         thead{
                             padding-top: 1.444vw;
-                            margin-bottom: 1.111vw;
+                            margin-bottom: 2.6vw;
                             tr {
                                 margin-bottom: 1.444vw;
                                 gap: 0 2vw;
@@ -2945,7 +2947,7 @@ ul, li {
                                 }
                             }
                             tr.tr-black.txt-small {
-                                height: 21.222vw;
+                                height: 21.6vw;
                                 td {
                                     font-size: 2.599vw;
                                 }

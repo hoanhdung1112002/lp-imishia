@@ -2656,7 +2656,7 @@ ul, li {
                         gap: 0 2.222vw;
                         height: 7.222vw;
                         &::after {
-                            width: 100vw;
+                            width: 100%;
                             right: 5.556vw;
                             height: 0.556vw;
                             bottom: -1.111vw;
@@ -2908,7 +2908,6 @@ ul, li {
                             padding-top: 1.444vw;
                             margin-bottom: 3.111vw;
                             tr {
-                                margin-top: -0.222vw;
                                 margin-bottom: 1.444vw;
                                 gap: 0 2vw;
                                 th {

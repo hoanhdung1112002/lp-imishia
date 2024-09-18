@@ -2471,7 +2471,7 @@ ul, li {
     height: 7.222vw;
   }
   .lp-emishia .check-content .check-form .form-check-gr::after {
-    width: 100vw;
+    width: 100%;
     right: 5.556vw;
     height: 0.556vw;
     bottom: -1.111vw;
@@ -2705,7 +2705,6 @@ ul, li {
     margin-bottom: 3.111vw;
   }
   .lp-emishia .solution .benefits .comparison-container table thead tr {
-    margin-top: -0.222vw;
     margin-bottom: 1.444vw;
     gap: 0 2vw;
   }

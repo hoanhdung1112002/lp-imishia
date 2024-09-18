@@ -3,22 +3,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
-* {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-html {
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
 body {
   margin: 0;
   padding: 0;
-  line-height: 1;
-  box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -164,7 +151,7 @@ ul, li {
   color: #FFF;
   text-align: center;
   font-family: "Noto Sans";
-  font-size: 25.391px;
+  font-size: 25.5px;
   font-weight: 700;
   line-height: 130%;
 }
@@ -172,12 +159,12 @@ ul, li {
   color: #FFF100;
   text-align: center;
   font-family: "Noto Sans";
-  font-size: 30.258px;
+  font-size: 30.5px;
   font-weight: 700;
   line-height: 130%;
 }
 .lp-emishia .hero {
-  margin-bottom: 36px;
+  margin-bottom: 32px;
 }
 .lp-emishia .hero-content {
   position: relative;
@@ -292,25 +279,27 @@ ul, li {
   width: 241px;
 }
 .lp-emishia .hero-fixed .fixed-text p:first-of-type {
+  padding-right: 13px;
   color: #2B5174;
   text-align: center;
   font-family: "Noto Sans JP";
-  font-size: 27.257px;
+  font-size: 27.5px;
   font-weight: 700;
   line-height: 146.752%;
   letter-spacing: 1.908px;
 }
 .lp-emishia .hero-fixed .fixed-text p:last-of-type {
+  padding-right: 18px;
   color: #06C755;
   text-align: center;
   font-family: "Noto Sans JP";
-  font-size: 46.847px;
+  font-size: 47px;
   font-weight: 900;
   line-height: 175%;
   letter-spacing: 1.874px;
 }
 .lp-emishia .hero-fixed .fixed-text p:last-of-type span {
-  font-size: 53.416px;
+  font-size: 53.5px;
   letter-spacing: 2.137px;
 }
 .lp-emishia .hero-fixed-cta {
@@ -334,14 +323,14 @@ ul, li {
   color: #FFF;
   text-align: center;
   font-family: "Noto Sans JP";
-  font-size: 26.333px;
+  font-size: 26.5px;
   font-weight: 700;
   line-height: 175%;
   letter-spacing: 1.843px;
 }
 .lp-emishia .hero-fixed-cta span {
   color: #FFF100;
-  font-size: 41.788px;
+  font-size: 42px;
   letter-spacing: 2.925px;
 }
 .lp-emishia .hero-fixed-cta span small {
@@ -396,9 +385,6 @@ ul, li {
   margin-right: 23px;
   margin-bottom: 60px;
 }
-.lp-emishia .coution-content > img:nth-of-type(1) {
-  margin-bottom: 3px;
-}
 .lp-emishia .coution-content > img:nth-of-type(2) {
   width: 606px;
   margin-left: 10px;
@@ -411,8 +397,8 @@ ul, li {
   margin-top: -10px;
 }
 .lp-emishia .coution-content .coution-satisfaction {
-  margin-top: 71px;
-  margin-bottom: 200px;
+  margin-top: 64px;
+  margin-bottom: 190px;
   color: #FFF;
   text-align: center;
   font-family: "Noto Sans JP";
@@ -422,6 +408,8 @@ ul, li {
   letter-spacing: 2.799px;
 }
 .lp-emishia .coution-content .coution-satisfaction span {
+  display: inline-block;
+  margin-top: 14px;
   font-size: 45px;
   letter-spacing: 3.6px;
 }
@@ -464,7 +452,7 @@ ul, li {
 .lp-emishia .coution .coution-imgs img:first-child {
   width: 421px;
   float: right;
-  padding-top: 34px;
+  padding-top: 28px;
   padding-right: 40px;
   clear: both;
 }
@@ -551,7 +539,7 @@ ul, li {
 }
 .lp-emishia .check-content .check-form form p {
   color: #2B5174;
-  font-size: 32.076px;
+  font-size: 32.1px;
   font-weight: 700;
   line-height: 170%;
   letter-spacing: 1.602px;
@@ -598,14 +586,14 @@ ul, li {
   color: #2B5174;
   text-align: center;
   font-family: "Noto Sans JP";
-  font-size: 45.117px;
+  font-size: 45px;
   font-weight: 700;
   line-height: normal;
 }
 .lp-emishia .check-content .check-main span {
   color: #2B5174;
   font-family: "Noto Sans JP";
-  font-size: 60.855px;
+  font-size: 61px;
   font-weight: 700;
   line-height: normal;
 }
@@ -655,7 +643,7 @@ ul, li {
   color: #2B5174;
   text-align: center;
   font-family: "Noto Sans JP";
-  font-size: 21.932px;
+  font-size: 22px;
   font-weight: 700;
   line-height: 146.752%;
   letter-spacing: 1.535px;
@@ -667,7 +655,7 @@ ul, li {
   color: #06C755;
   text-align: center;
   font-family: "Noto Sans JP";
-  font-size: 47.628px;
+  font-size: 47.6px;
   font-weight: 900;
   line-height: 110%;
   letter-spacing: 1.905px;
@@ -679,7 +667,7 @@ ul, li {
 }
 .lp-emishia .check-content .check-main .check-circle-text p:last-of-type small {
   color: #06C755;
-  font-size: 54.307px;
+  font-size: 54.5px;
   letter-spacing: 2.172px;
 }
 .lp-emishia .check-content .check-main .check-fixed-cta {
@@ -699,12 +687,12 @@ ul, li {
   width: 80%;
   position: absolute;
   left: 52%;
-  top: 54%;
+  top: 50%;
   transform: translate(-50%, -50%);
   color: #FFF;
   text-align: center;
   font-family: "Noto Sans JP";
-  font-size: 26.334px;
+  font-size: 26.5px;
   font-weight: 700;
   letter-spacing: 1.845px;
 }
@@ -712,7 +700,7 @@ ul, li {
   color: #FFF100;
   text-align: center;
   font-family: "Noto Sans JP";
-  font-size: 41.787px;
+  font-size: 42px;
   font-weight: 700;
   line-height: 175%;
   letter-spacing: 2.925px;
@@ -738,14 +726,14 @@ ul, li {
   background-size: 847px;
   text-align: center;
   font-family: "Noto Sans JP";
-  font-size: 45.117px;
+  font-size: 45px;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 4.509px;
 }
 .lp-emishia .solution-content .solution-top {
   position: relative;
-  margin-bottom: 32px;
+  margin-bottom: 26px;
 }
 .lp-emishia .solution-content .solution-top img:first-of-type {
   padding-left: 98px;
@@ -754,7 +742,7 @@ ul, li {
 .lp-emishia .solution-content .solution-top img:last-of-type {
   width: 273px;
   position: absolute;
-  top: -37px;
+  top: -41px;
   left: 48px;
 }
 .lp-emishia .solution-content .solution-box {
@@ -762,6 +750,7 @@ ul, li {
 }
 .lp-emishia .solution-content .solution-box > img:first-of-type {
   margin-bottom: 49px;
+  margin-left: 10px;
 }
 .lp-emishia .solution-content .solution-box > img:nth-of-type(3) {
   position: absolute;
@@ -779,6 +768,7 @@ ul, li {
 }
 .lp-emishia .solution .benefits > img {
   width: 869px;
+  margin-left: 17px;
 }
 .lp-emishia .solution .benefits-content {
   position: absolute;
@@ -791,10 +781,10 @@ ul, li {
 }
 .lp-emishia .solution .benefits-content > img:nth-of-type(2) {
   margin-right: 24px;
-  margin-bottom: 36px;
+  margin-bottom: 32px;
 }
 .lp-emishia .solution .benefits-content .benefits-imgs {
-  margin-bottom: 45px;
+  margin-bottom: 38px;
 }
 .lp-emishia .solution .benefits-content .benefits-imgs img:first-of-type {
   margin-right: 50px;
@@ -818,7 +808,7 @@ ul, li {
   max-width: 595px;
   margin: 0 auto;
   position: absolute;
-  top: 46%;
+  top: 47%;
   left: 51%;
   transform: translate(-50%, -50%);
   color: #5F5F5F;
@@ -844,7 +834,7 @@ ul, li {
   top: 3px;
 }
 .lp-emishia .solution .benefits-medicine-info .benefits-top {
-  margin-bottom: 60px;
+  margin-bottom: 51px;
 }
 .lp-emishia .solution .benefits-medicine-info .benefits-top img:nth-of-type(2) {
   margin-bottom: 41px;
@@ -886,7 +876,7 @@ ul, li {
   color: #FFF;
   text-align: center;
   font-family: "Yu Gothic";
-  font-size: 23.391px;
+  font-size: 23.5px;
   font-weight: 700;
   line-height: 123.077%;
 }
@@ -901,7 +891,7 @@ ul, li {
   background-color: #fff;
 }
 .lp-emishia .solution .benefits .comparison-container ul li:nth-child(4) {
-  padding: 19px 14px;
+  padding: 19.5px 14px;
 }
 .lp-emishia .solution .benefits .comparison-container ul li:last-child {
   padding-top: 74px;
@@ -909,7 +899,7 @@ ul, li {
 .lp-emishia .solution .benefits .comparison-container table thead {
   display: block;
   padding-top: 13px;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
 .lp-emishia .solution .benefits .comparison-container table thead tr {
   margin-bottom: 13px;
@@ -926,7 +916,7 @@ ul, li {
   color: #FFF;
   text-align: center;
   font-family: "Yu Gothic";
-  font-size: 26.991px;
+  font-size: 27px;
   font-weight: 700;
   line-height: 53.973px;
   border-radius: 10.791px;
@@ -943,12 +933,16 @@ ul, li {
   width: 20px;
   height: 23px;
 }
+.lp-emishia .solution .benefits .comparison-container table tbody {
+  display: flex;
+  flex-direction: column;
+  gap: 7px 0;
+}
 .lp-emishia .solution .benefits .comparison-container table tbody tr {
   height: 90px;
   display: flex;
   align-items: center;
   gap: 0 18px;
-  margin-bottom: 8px;
   background-color: #FAEFBF;
   flex-shrink: 0;
 }
@@ -958,7 +952,7 @@ ul, li {
   color: #FF783F;
   text-align: center;
   font-family: "Yu Gothic";
-  font-size: 26.991px;
+  font-size: 27px;
   font-weight: 700;
   line-height: normal;
 }
@@ -969,8 +963,9 @@ ul, li {
 }
 .lp-emishia .solution .benefits .comparison-container table tbody tr:last-child td {
   width: 270px;
-  padding-top: 10px;
+  padding-top: 16px;
   text-align: left;
+  line-height: 32.382px;
 }
 .lp-emishia .solution .benefits .comparison-container table tbody tr:last-child td:first-child {
   padding-left: 25px;
@@ -979,11 +974,11 @@ ul, li {
   color: #000;
 }
 .lp-emishia .solution .benefits .comparison-container table tbody tr.tr-black.txt-small {
-  height: 190px;
+  height: 191px;
   margin-bottom: 0;
 }
 .lp-emishia .solution .benefits .comparison-container table tbody tr.tr-black.txt-small td {
-  font-size: 23.391px;
+  font-size: 23.5px;
 }
 .lp-emishia .effect {
   margin-bottom: 86px;
@@ -998,7 +993,7 @@ ul, li {
   background-size: 846.999px;
   text-align: center;
   font-family: "Noto Sans JP";
-  font-size: 45.117px;
+  font-size: 45px;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 4.509px;
@@ -1014,16 +1009,17 @@ ul, li {
 }
 .lp-emishia .effect-box > img:first-of-type {
   width: 383.004px;
-  margin-top: 21px;
+  margin-top: 10px;
   margin-left: 14px;
 }
 .lp-emishia .effect-box img:nth-of-type(2) {
   width: 50px;
   padding-top: 78px;
+  margin-right: 8px;
 }
 .lp-emishia .effect-box img:last-of-type {
-  width: 405.999px;
-  padding-top: 113.004px;
+  width: 406px;
+  padding-top: 111px;
 }
 .lp-emishia .effect-text {
   position: relative;
@@ -1033,7 +1029,7 @@ ul, li {
   display: inline-block;
   color: #2B5174;
   font-family: "Noto Sans JP";
-  font-size: 103.608px;
+  font-size: 104px;
   font-weight: 700;
   line-height: 170%;
   clear: both;
@@ -1048,7 +1044,7 @@ ul, li {
   right: 0;
 }
 .lp-emishia .effect-text span {
-  font-size: 52.659px;
+  font-size: 53px;
   line-height: 150%;
 }
 .lp-emishia .effect-bottom-box {
@@ -1078,18 +1074,18 @@ ul, li {
 .lp-emishia .effect-table img:last-of-type {
   width: 354px;
   position: absolute;
-  bottom: 2px;
+  bottom: 7px;
   left: 44%;
   transform: translateX(-50%);
 }
 .lp-emishia .effect-note {
-  margin-top: 12px;
+  margin-top: 6px;
   margin-left: 50px;
   margin-right: 50px;
   text-align: left;
   color: #5F5F5F;
   font-family: "Noto Sans JP";
-  font-size: 19.998px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 170%;
 }
@@ -1132,25 +1128,28 @@ ul, li {
   background-size: 95% auto;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 }
 .lp-emishia .effect-fixed .fixed-doctor img {
   width: 241px;
 }
 .lp-emishia .effect-fixed .fixed-text p:first-of-type {
+  padding-right: 10px;
+  margin-top: 49px;
   color: #2B5174;
   text-align: center;
   font-family: "Noto Sans JP";
-  font-size: 27.257px;
+  font-size: 27.5px;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 1.908px;
 }
 .lp-emishia .effect-fixed .fixed-text p:last-of-type {
+  padding-right: 16px;
   color: #06C755;
   text-align: center;
   font-family: "Noto Sans JP";
-  font-size: 46.847px;
+  font-size: 47px;
   font-weight: 900;
   line-height: 175%;
   letter-spacing: 1.874px;
@@ -1183,14 +1182,14 @@ ul, li {
   color: #FFF;
   text-align: center;
   font-family: "Noto Sans JP";
-  font-size: 26.333px;
+  font-size: 26.5px;
   font-weight: 700;
   line-height: 175%;
   letter-spacing: 1.843px;
 }
 .lp-emishia .effect-fixed-cta span {
   color: #FFF100;
-  font-size: 41.788px;
+  font-size: 42px;
   letter-spacing: 2.925px;
 }
 .lp-emishia .effect-fixed-cta span small {
@@ -1231,7 +1230,7 @@ ul, li {
 .lp-emishia .customers-box .customer-bubbles02 {
   float: right;
   position: relative;
-  top: -194px;
+  top: -200px;
   right: 50px;
   margin-bottom: -194px;
   clear: both;
@@ -1253,7 +1252,7 @@ ul, li {
 .lp-emishia .customers-box .customer-qa {
   text-align: center;
   position: relative;
-  top: -21px;
+  top: -30px;
   right: -10px;
 }
 .lp-emishia .customers-box .customer-qa img {
@@ -1284,7 +1283,7 @@ ul, li {
 .lp-emishia .customers-box .customer-bubbles03 {
   float: right;
   margin-right: 46px;
-  margin-top: 17px;
+  margin-top: 7px;
   clear: both;
 }
 .lp-emishia .customers-box .customer-bubbles03 img {
@@ -1303,7 +1302,7 @@ ul, li {
   left: 49px;
 }
 .lp-emishia .reasons {
-  margin-bottom: 42px;
+  margin-bottom: 36px;
 }
 .lp-emishia .reasons-head {
   margin-bottom: 42px;
@@ -1316,17 +1315,17 @@ ul, li {
   color: #2B5174;
   text-align: center;
   font-family: "Noto Sans JP";
-  font-size: 49.464px;
+  font-size: 49.5px;
   font-weight: 700;
   line-height: 170%;
   letter-spacing: 4.95px;
 }
 .lp-emishia .reasons-head > p:last-of-type {
   margin-top: -42px;
-  margin-bottom: 27px;
+  margin-bottom: 18px;
   color: #2B5174;
   font-family: "Noto Sans JP";
-  font-size: 54.956px;
+  font-size: 55px;
   font-weight: 700;
   line-height: 170%;
   letter-spacing: 2.748px;
@@ -1337,7 +1336,7 @@ ul, li {
   color: #d5a712;
   text-align: center;
   font-family: "Merriweather";
-  font-size: 129.996px;
+  font-size: 130px;
   font-weight: 700;
   line-height: 1;
 }
@@ -1439,7 +1438,7 @@ ul, li {
   margin-top: -20px;
 }
 .lp-emishia .emishialine {
-  margin-bottom: 36px;
+  margin-bottom: 32px;
 }
 .lp-emishia .emishialine-container {
   position: relative;
@@ -1483,7 +1482,7 @@ ul, li {
 }
 .lp-emishia .emishialine-head {
   padding: 0 50px;
-  margin-bottom: 26px;
+  margin-bottom: 20px;
 }
 .lp-emishia .emishialine-head > p {
   margin-top: 43px;
@@ -1491,7 +1490,7 @@ ul, li {
   color: #5F5F5F;
   text-align: center;
   font-family: "Noto Sans JP";
-  font-size: 27.773px;
+  font-size: 28px;
   font-weight: 400;
   line-height: normal;
 }
@@ -1548,7 +1547,7 @@ ul, li {
   color: #FFF;
   text-align: center;
   font-family: "Noto Sans JP";
-  font-size: 38.736px;
+  font-size: 39px;
   font-weight: 700;
   line-height: 140%;
 }
@@ -1569,31 +1568,34 @@ ul, li {
   background-size: 95% auto;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 }
 .lp-emishia .emishialine-fixed .fixed-doctor img {
   width: 241px;
 }
 .lp-emishia .emishialine-fixed .fixed-text p:first-of-type {
+  padding-right: 10px;
+  margin-top: 24px;
   color: #2B5174;
   text-align: center;
   font-family: "Noto Sans JP";
-  font-size: 27.257px;
+  font-size: 27.5px;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 1.908px;
 }
 .lp-emishia .emishialine-fixed .fixed-text p:last-of-type {
+  padding-right: 16px;
   color: #06C755;
   text-align: center;
   font-family: "Noto Sans JP";
-  font-size: 46.847px;
+  font-size: 47px;
   font-weight: 900;
   line-height: 175%;
   letter-spacing: 1.874px;
 }
 .lp-emishia .emishialine-fixed .fixed-text p:last-of-type span {
-  font-size: 53.416px;
+  font-size: 53.5px;
   letter-spacing: 2.137px;
 }
 .lp-emishia .emishialine-fixed-cta {
@@ -1620,14 +1622,14 @@ ul, li {
   color: #FFF;
   text-align: center;
   font-family: "Noto Sans JP";
-  font-size: 26.333px;
+  font-size: 26.5px;
   font-weight: 700;
   line-height: 175%;
   letter-spacing: 1.843px;
 }
 .lp-emishia .emishialine-fixed-cta span {
   color: #FFF100;
-  font-size: 41.788px;
+  font-size: 42px;
   letter-spacing: 2.925px;
 }
 .lp-emishia .emishialine-fixed-cta span small {
@@ -1661,7 +1663,7 @@ ul, li {
   color: #919DDA;
   text-align: center;
   font-family: "Bad Script";
-  font-size: 47.142px;
+  font-size: 47px;
   font-weight: 400;
   line-height: normal;
   white-space: nowrap;
@@ -1713,21 +1715,21 @@ ul, li {
   color: #D5A712;
   text-align: center;
   font-family: "Merriweather";
-  font-size: 130.359px;
+  font-size: 130.5px;
   font-weight: 700;
   line-height: 1;
 }
 .lp-emishia .steps-head-text p:last-child {
   color: #FFF;
   font-family: "Noto Sans JP";
-  font-size: 73.185px;
+  font-size: 73px;
   font-style: italic;
   font-weight: 700;
   line-height: 170%;
   letter-spacing: 3.659px;
 }
 .lp-emishia .steps-content > ul {
-  padding-top: 29px;
+  padding-top: 25px;
   display: flex;
   gap: 0 42px;
 }
@@ -1755,13 +1757,13 @@ ul, li {
 .lp-emishia .steps-content > ul li.card-item .card-title span {
   color: #2B5174;
   font-family: "Noto Sans JP";
-  font-size: 50.822px;
+  font-size: 51px;
   font-style: italic;
   font-weight: 700;
   line-height: 140%;
 }
 .lp-emishia .steps-content > ul li.card-item .card-title span small {
-  font-size: 51.003px;
+  font-size: 51px;
 }
 .lp-emishia .steps-content > ul li.card-item .card-img {
   border-radius: 0px 20px 20px 0px;
@@ -1779,7 +1781,7 @@ ul, li {
   text-align: left;
   color: #2B5174;
   font-family: "Noto Sans JP";
-  font-size: 34.002px;
+  font-size: 34px;
   font-weight: 500;
   line-height: 160%;
   padding: 40px 50px 10px 50px;
@@ -1787,7 +1789,7 @@ ul, li {
 .lp-emishia .steps-content > ul li.card-item .card-text span {
   color: #FF783F;
   font-family: "Noto Sans JP";
-  font-size: 34.002px;
+  font-size: 34px;
   font-weight: 700;
   line-height: 160%;
 }
@@ -1800,7 +1802,7 @@ ul, li {
   color: #5F5F5F;
   text-align: center;
   font-family: "Noto Sans JP";
-  font-size: 27.999px;
+  font-size: 28px;
   font-weight: 500;
   line-height: 140%;
 }
@@ -1856,7 +1858,7 @@ ul, li {
   text-align: left;
   color: #2B5174;
   font-family: "Noto Sans JP";
-  font-size: 29.997px;
+  font-size: 30px;
   font-weight: 500;
   line-height: 160%;
 }
@@ -1867,7 +1869,7 @@ ul, li {
   margin: 0 40px;
   color: #2B5174;
   font-family: "Noto Sans JP";
-  font-size: 29.997px;
+  font-size: 30px;
   font-weight: 500;
   line-height: 160%;
   text-align: left;
@@ -1927,7 +1929,7 @@ ul, li {
   margin-bottom: 53px;
 }
 .lp-emishia .faq-head-title {
-  margin-bottom: 30px;
+  margin-bottom: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1937,7 +1939,7 @@ ul, li {
   color: #606B7C;
   text-align: center;
   font-family: "Noto Sans CJK JP";
-  font-size: 27.999px;
+  font-size: 30px;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.404px;
@@ -1950,7 +1952,7 @@ ul, li {
   position: relative;
   color: #606B7C;
   font-family: "Noto Sans JP";
-  font-size: 26.001px;
+  font-size: 26px;
   font-weight: 500;
   line-height: 46px;
   letter-spacing: 1.296px;
@@ -1968,7 +1970,7 @@ ul, li {
 .lp-emishia .faq-head-text p {
   color: #606B7C;
   font-family: "Noto Sans JP";
-  font-size: 21.996px;
+  font-size: 22px;
   font-weight: 400;
   line-height: 35.2px;
 }
@@ -2147,7 +2149,7 @@ ul, li {
   width: 160px;
   color: #000;
   font-family: "Noto Sans JP";
-  font-size: 33.597px;
+  font-size: 33.6px;
   font-weight: 400;
   line-height: 175%;
   letter-spacing: 2.349px;
@@ -2155,7 +2157,7 @@ ul, li {
 .lp-emishia .company .company-info li p {
   color: #000;
   font-family: "Noto Sans JP";
-  font-size: 33.597px;
+  font-size: 33.6px;
   font-weight: 500;
   line-height: 175%;
   letter-spacing: 2.349px;
@@ -2181,7 +2183,7 @@ ul, li {
   color: #000;
   text-align: center;
   font-family: "Noto Sans JP";
-  font-size: 24.003px;
+  font-size: 24px;
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.72px;
@@ -2283,12 +2285,13 @@ ul, li {
     width: 26.778vw;
   }
   .lp-emishia .hero-fixed .fixed-text p:first-of-type {
+    padding-right: 1.444vw;
     font-size: 3.029vw;
-    font-weight: 700;
     line-height: 4.444vw;
     letter-spacing: 0.212vw;
   }
   .lp-emishia .hero-fixed .fixed-text p:last-of-type {
+    padding-right: 2vw;
     font-size: 5.205vw;
     letter-spacing: 0.208vw;
   }
@@ -2342,7 +2345,6 @@ ul, li {
   }
   .lp-emishia .coution-content > img:nth-of-type(1) {
     max-width: 53.111vw;
-    margin-bottom: 0.333vw;
   }
   .lp-emishia .coution-content > img:nth-of-type(2) {
     width: 67.333vw;
@@ -2364,8 +2366,8 @@ ul, li {
     width: 100vw;
   }
   .lp-emishia .coution-content .coution-satisfaction {
-    margin-top: 7.889vw;
-    margin-bottom: 22.222vw;
+    margin-top: 7.111vw;
+    margin-bottom: 21.111vw;
     font-size: 3.889vw;
     letter-spacing: 0.311vw;
   }
@@ -2408,12 +2410,11 @@ ul, li {
   }
   .lp-emishia .coution .coution-imgs img:first-child {
     width: 46.778vw;
-    padding-top: 3.778vw;
+    padding-top: 3.111vw;
     padding-right: 4.444vw;
   }
   .lp-emishia .coution .coution-imgs img:nth-child(2) {
     width: 49.222vw;
-    margin-top: -2.444vw;
     padding-left: 1.778vw;
   }
   .lp-emishia .coution .coution-imgs img:nth-child(3) {
@@ -2567,7 +2568,7 @@ ul, li {
     letter-spacing: 0.501vw;
   }
   .lp-emishia .solution-content .solution-top {
-    margin-bottom: 3.556vw;
+    margin-bottom: 2.889vw;
   }
   .lp-emishia .solution-content .solution-top img:first-of-type {
     padding-left: 10.889vw;
@@ -2575,12 +2576,13 @@ ul, li {
   }
   .lp-emishia .solution-content .solution-top img:last-of-type {
     width: 30.333vw;
-    top: -4.111vw;
+    top: -4.556vw;
     left: 5.333vw;
   }
   .lp-emishia .solution-content .solution-box > img:first-of-type {
     width: 77.667vw;
     margin-bottom: 5.444vw;
+    margin-left: 1.111vw;
   }
   .lp-emishia .solution-content .solution-box > img:nth-of-type(2) {
     width: 86.222vw;
@@ -2600,6 +2602,7 @@ ul, li {
   }
   .lp-emishia .solution .benefits > img {
     width: 96.556vw;
+    margin-left: 1.889vw;
   }
   .lp-emishia .solution .benefits-content > img:first-of-type {
     width: 52.333vw;
@@ -2608,10 +2611,10 @@ ul, li {
   .lp-emishia .solution .benefits-content > img:nth-of-type(2) {
     width: 81.778vw;
     margin-right: 2.667vw;
-    margin-bottom: 4vw;
+    margin-bottom: 3.556vw;
   }
   .lp-emishia .solution .benefits-content .benefits-imgs {
-    margin-bottom: 5vw;
+    margin-bottom: 4.222vw;
   }
   .lp-emishia .solution .benefits-content .benefits-imgs img:first-of-type {
     width: 83.222vw;
@@ -2652,7 +2655,7 @@ ul, li {
     top: 0.333vw;
   }
   .lp-emishia .solution .benefits-medicine-info .benefits-top {
-    margin-bottom: 6.667vw;
+    margin-bottom: 5.667vw;
   }
   .lp-emishia .solution .benefits-medicine-info .benefits-top img:first-child {
     max-width: 67.333vw;
@@ -2674,11 +2677,10 @@ ul, li {
     margin-bottom: 3vw;
     margin-left: 2.778vw;
     gap: 0 2vw;
-    overflow: scroll;
   }
   .lp-emishia .solution .benefits .comparison-container ul {
     left: -0.333vw;
-    width: 24.789vw;
+    width: 24.778vw;
     height: 86.556vw;
     border-radius: 1.839vw 0px 0px 1.839vw;
   }
@@ -2691,14 +2693,14 @@ ul, li {
     height: 0.444vw;
   }
   .lp-emishia .solution .benefits .comparison-container ul li:nth-child(4) {
-    padding: 2.111vw 1.556vw;
+    padding: 2.167vw 1.556vw;
   }
   .lp-emishia .solution .benefits .comparison-container ul li:last-child {
     padding-top: 8.222vw;
   }
   .lp-emishia .solution .benefits .comparison-container table thead {
     padding-top: 1.444vw;
-    margin-bottom: 3.333vw;
+    margin-bottom: 1.111vw;
   }
   .lp-emishia .solution .benefits .comparison-container table thead tr {
     margin-bottom: 1.444vw;
@@ -2708,7 +2710,7 @@ ul, li {
     width: 35.584vw;
     height: 5.997vw;
     font-size: 2.999vw;
-    line-height: 5.997vw;
+    line-height: 2.999vw;
     border-radius: 1.199vw;
   }
   .lp-emishia .solution .benefits .comparison-container table thead tr th::after {
@@ -2717,10 +2719,12 @@ ul, li {
     width: 2.222vw;
     height: 2.556vw;
   }
+  .lp-emishia .solution .benefits .comparison-container table tbody {
+    gap: 0.778vw 0;
+  }
   .lp-emishia .solution .benefits .comparison-container table tbody tr {
     height: 10vw;
     gap: 0 2vw;
-    margin-bottom: 0.889vw;
   }
   .lp-emishia .solution .benefits .comparison-container table tbody tr td {
     width: 35.556vw;
@@ -2731,13 +2735,14 @@ ul, li {
   }
   .lp-emishia .solution .benefits .comparison-container table tbody tr:last-child td {
     width: 30vw;
-    padding-top: 1.111vw;
+    padding-top: 1.778vw;
+    line-height: 3.598vw;
   }
   .lp-emishia .solution .benefits .comparison-container table tbody tr:last-child td:first-child {
     padding-left: 2.778vw;
   }
   .lp-emishia .solution .benefits .comparison-container table tbody tr.tr-black.txt-small {
-    height: 21.111vw;
+    height: 21.222vw;
   }
   .lp-emishia .solution .benefits .comparison-container table tbody tr.tr-black.txt-small td {
     font-size: 2.599vw;
@@ -2755,12 +2760,13 @@ ul, li {
   }
   .lp-emishia .effect-box > img:first-of-type {
     width: 42.556vw;
-    margin-top: 2.333vw;
+    margin-top: 1.111vw;
     margin-left: 1.556vw;
   }
   .lp-emishia .effect-box img:nth-of-type(2) {
     width: 5.556vw;
     padding-top: 8.667vw;
+    margin-right: 0.889vw;
   }
   .lp-emishia .effect-box img:last-of-type {
     width: 45.111vw;
@@ -2799,7 +2805,7 @@ ul, li {
     width: 39.333vw;
   }
   .lp-emishia .effect-note {
-    margin-top: 1.333vw;
+    margin-top: 0.667vw;
     margin-left: 5.556vw;
     margin-right: 5.556vw;
     font-size: 2.222vw;
@@ -2834,11 +2840,14 @@ ul, li {
     width: 26.778vw;
   }
   .lp-emishia .effect-fixed .fixed-text p:first-of-type {
+    padding-right: 1.111vw;
+    margin-top: 5.444vw;
     font-size: 3.029vw;
     line-height: 4.444vw;
     letter-spacing: 0.212vw;
   }
   .lp-emishia .effect-fixed .fixed-text p:last-of-type {
+    padding-right: 1.778vw;
     font-size: 5.205vw;
     letter-spacing: 0.208vw;
   }
@@ -2885,7 +2894,7 @@ ul, li {
     margin-left: 9.111vw;
   }
   .lp-emishia .customers-box .customer-bubbles02 {
-    top: -21.556vw;
+    top: -22.222vw;
     right: 5.556vw;
     margin-bottom: -21.556vw;
   }
@@ -2899,7 +2908,7 @@ ul, li {
     height: 17vw;
   }
   .lp-emishia .customers-box .customer-qa {
-    top: -2.333vw;
+    top: -3.333vw;
     right: -1.111vw;
   }
   .lp-emishia .customers-box .customer-qa img {
@@ -2918,7 +2927,7 @@ ul, li {
   }
   .lp-emishia .customers-box .customer-bubbles03 {
     margin-right: 5.111vw;
-    margin-top: 1.889vw;
+    margin-top: 0.778vw;
   }
   .lp-emishia .customers-box .customer-bubbles03 img {
     width: 61.889vw;
@@ -2934,7 +2943,7 @@ ul, li {
     left: 5.444vw;
   }
   .lp-emishia .reasons {
-    margin-bottom: 4.667vw;
+    margin-bottom: 4vw;
   }
   .lp-emishia .reasons-head {
     margin-bottom: 4.667vw;
@@ -2954,7 +2963,7 @@ ul, li {
   }
   .lp-emishia .reasons-head > p:last-of-type {
     margin-top: -4.667vw;
-    margin-bottom: 3vw;
+    margin-bottom: 2vw;
     font-size: 6.106vw;
     letter-spacing: 0.305vw;
   }
@@ -3062,7 +3071,7 @@ ul, li {
     width: 42.444vw;
   }
   .lp-emishia .emishialine {
-    margin-bottom: 4vw;
+    margin-bottom: 3.556vw;
   }
   .lp-emishia .emishialine-container > img {
     width: 100vw;
@@ -3091,7 +3100,7 @@ ul, li {
   }
   .lp-emishia .emishialine-head {
     padding: 0 5.556vw;
-    margin-bottom: 2.889vw;
+    margin-bottom: 2.222vw;
   }
   .lp-emishia .emishialine-head > p {
     margin-top: 4.778vw;
@@ -3151,11 +3160,14 @@ ul, li {
     width: 26.778vw;
   }
   .lp-emishia .emishialine-fixed .fixed-text p:first-of-type {
+    padding-right: 1.111vw;
+    margin-top: 2.667vw;
     font-size: 3.029vw;
     line-height: 4.444vw;
     letter-spacing: 0.212vw;
   }
   .lp-emishia .emishialine-fixed .fixed-text p:last-of-type {
+    padding-right: 1.778vw;
     font-size: 5.205vw;
     letter-spacing: 0.208vw;
   }
@@ -3225,7 +3237,7 @@ ul, li {
     letter-spacing: 0.407vw;
   }
   .lp-emishia .steps-content > ul {
-    padding-top: 3.222vw;
+    padding-top: 2.778vw;
     gap: 0 4.667vw;
   }
   .lp-emishia .steps-content > ul li.card-item {
@@ -3344,7 +3356,7 @@ ul, li {
     margin-bottom: 5.889vw;
   }
   .lp-emishia .faq-head-title {
-    margin-bottom: 3.333vw;
+    margin-bottom: 2.667vw;
     gap: 0 2.889vw;
   }
   .lp-emishia .faq-head-title p {

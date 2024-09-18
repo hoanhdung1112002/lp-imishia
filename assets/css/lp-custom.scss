@@ -3,20 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
-* {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-html {
-    font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
+
 body {
     margin: 0;
     padding: 0;
-    line-height: 1;
-    box-sizing: border-box;
 }
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
@@ -165,7 +155,7 @@ ul, li {
             color: #FFF;
             text-align: center;
             font-family: "Noto Sans";
-            font-size: 25.391px;
+            font-size: 25.5px;
             font-weight: 700;
             line-height: 130%;
         }
@@ -173,7 +163,7 @@ ul, li {
             color: #FFF100;
             text-align: center;
             font-family: "Noto Sans";
-            font-size: 30.258px;
+            font-size: 30.5px;
             font-weight: 700;
             line-height: 130%;
         }
@@ -181,7 +171,7 @@ ul, li {
 }
 
 .hero {
-    margin-bottom: 36px;
+    margin-bottom: 32px;
     &-content {
         position: relative;
         .hero-bg {
@@ -304,24 +294,26 @@ ul, li {
         }
         .fixed-text {
             p:first-of-type {
+                padding-right: 13px;
                 color: #2B5174;
                 text-align: center;
                 font-family: "Noto Sans JP";
-                font-size: 27.257px;
+                font-size: 27.5px;
                 font-weight: 700;
                 line-height: 146.752%;
                 letter-spacing: 1.908px;
             }
             p:last-of-type {
+                padding-right: 18px;
                 color: #06C755;
                 text-align: center;
                 font-family: "Noto Sans JP";
-                font-size: 46.847px;
+                font-size: 47px;
                 font-weight: 900;
                 line-height: 175%;
                 letter-spacing: 1.874px;
                 span {
-                    font-size: 53.416px;
+                    font-size: 53.5px;
                     letter-spacing: 2.137px;
                 }
             }
@@ -346,14 +338,14 @@ ul, li {
                 color: #FFF;
                 text-align: center;
                 font-family: "Noto Sans JP";
-                font-size: 26.333px;
+                font-size: 26.5px;
                 font-weight: 700;
                 line-height: 175%;
                 letter-spacing: 1.843px;
             }
             span {
                 color: #FFF100;
-                font-size: 41.788px;
+                font-size: 42px;
                 letter-spacing: 2.925px;
                 small {
                     font-size: 35px;
@@ -412,9 +404,6 @@ ul, li {
             margin-right: 23px;
             margin-bottom: 60px;
         }
-        > img:nth-of-type(1) {
-            margin-bottom: 3px;
-        }
         > img:nth-of-type(2) {
             width: 606px;
             margin-left: 10px;
@@ -427,8 +416,8 @@ ul, li {
             margin-top: -10px;
         }
         .coution-satisfaction {
-            margin-top: 71px;
-            margin-bottom: 200px;
+            margin-top: 64px;
+            margin-bottom: 190px;
             color: #FFF;
             text-align: center;
             font-family: "Noto Sans JP";
@@ -437,6 +426,8 @@ ul, li {
             line-height: 170%;
             letter-spacing: 2.799px;
             span {
+                display: inline-block;
+                margin-top: 14px;
                 font-size: 45px;
                 letter-spacing: 3.6px;
             }
@@ -482,7 +473,7 @@ ul, li {
         img:first-child {
             width: 421px;
             float: right;
-            padding-top: 34px;
+            padding-top: 28px;
             padding-right: 40px;
             clear: both;
         }
@@ -570,7 +561,7 @@ ul, li {
                 }   
                 p {
                     color: #2B5174;
-                    font-size: 32.076px;
+                    font-size: 32.1px;
                     font-weight: 700;
                     line-height: 170%;
                     letter-spacing: 1.602px;
@@ -618,14 +609,14 @@ ul, li {
                 color: #2B5174;
                 text-align: center;
                 font-family: "Noto Sans JP";
-                font-size: 45.117px;
+                font-size: 45px;
                 font-weight: 700;
                 line-height: normal;
             }
             span {
                 color: #2B5174;
                 font-family: "Noto Sans JP";
-                font-size: 60.855px;
+                font-size: 61px;
                 font-weight: 700;
                 line-height: normal;
             }
@@ -674,7 +665,7 @@ ul, li {
                     color: #2B5174;
                     text-align: center;
                     font-family: "Noto Sans JP";
-                    font-size: 21.932px;
+                    font-size: 22px;
                     font-weight: 700;
                     line-height: 146.752%;
                     letter-spacing: 1.535px;
@@ -686,7 +677,7 @@ ul, li {
                     color: #06C755;
                     text-align: center;
                     font-family: "Noto Sans JP";
-                    font-size: 47.628px;
+                    font-size: 47.6px;
                     font-weight: 900;
                     line-height: 110%;
                     letter-spacing: 1.905px;
@@ -697,7 +688,7 @@ ul, li {
                     }
                     small {
                         color: #06C755;
-                        font-size: 54.307px;
+                        font-size: 54.5px;
                         letter-spacing: 2.172px;
                     }
                 }
@@ -718,12 +709,12 @@ ul, li {
                     width: 80%;
                     position: absolute;
                     left: 52%;
-                    top: 54%;
+                    top: 50%;
                     transform: translate(-50%, -50%);
                     color: #FFF;
                     text-align: center;
                     font-family: "Noto Sans JP";
-                    font-size: 26.334px;
+                    font-size: 26.5px;
                     font-weight: 700;
                     letter-spacing: 1.845px;
                 }
@@ -731,7 +722,7 @@ ul, li {
                     color: #FFF100;
                     text-align: center;
                     font-family: "Noto Sans JP";
-                    font-size: 41.787px;
+                    font-size: 42px;
                     font-weight: 700;
                     line-height: 175%;
                     letter-spacing: 2.925px;
@@ -762,14 +753,14 @@ ul, li {
             background-size: 847px;
             text-align: center;
             font-family: "Noto Sans JP";
-            font-size: 45.117px;
+            font-size: 45px;
             font-weight: 700;
             line-height: normal;
             letter-spacing: 4.509px;
         }
         .solution-top {
             position: relative;
-            margin-bottom: 32px;
+            margin-bottom: 26px;
             img:first-of-type {
                 padding-left: 98px;
                 width: 669px;
@@ -777,7 +768,7 @@ ul, li {
             img:last-of-type {
                 width: 273px;
                 position: absolute;
-                top: -37px;
+                top: -41px;
                 left: 48px;
             }
         }
@@ -785,6 +776,7 @@ ul, li {
             position: relative;
             > img:first-of-type {
                 margin-bottom: 49px;
+                margin-left: 10px;
             }
             > img:nth-of-type(3) {
                 position: absolute;
@@ -803,6 +795,7 @@ ul, li {
         position: relative;
         > img {
             width: 869px;
+            margin-left: 17px;
         }
         &-content {
             position: absolute;
@@ -814,10 +807,10 @@ ul, li {
             }
             > img:nth-of-type(2){
                 margin-right: 24px;
-                margin-bottom: 36px;
+                margin-bottom: 32px;
             }
             .benefits-imgs {
-                margin-bottom: 45px;
+                margin-bottom: 38px;
                 img:first-of-type {
                     margin-right: 50px;
                     margin-bottom: 30px;
@@ -840,7 +833,7 @@ ul, li {
                     max-width: 595px;
                     margin: 0 auto;
                     position: absolute;
-                    top: 46%;
+                    top: 47%;
                     left: 51%;
                     transform: translate(-50%, -50%);
                     color: #5F5F5F;
@@ -869,7 +862,7 @@ ul, li {
         }
         &-medicine-info {
             .benefits-top {
-                margin-bottom: 60px;
+                margin-bottom: 51px;
                 img:nth-of-type(2){
                     margin-bottom: 41px;
                     margin-top: 48px;
@@ -910,7 +903,7 @@ ul, li {
                     color: #FFF;
                     text-align: center;
                     font-family: 'Yu Gothic';
-                    font-size: 23.391px;
+                    font-size: 23.5px;
                     font-weight: 700;
                     line-height: 123.077%;
                     &:not(:last-child)::after {
@@ -925,7 +918,7 @@ ul, li {
                     }
                 }
                 li:nth-child(4){
-                    padding: 19px 14px;
+                    padding: 19.5px 14px;
                 }
                 li:last-child {
                     padding-top: 74px;
@@ -935,7 +928,7 @@ ul, li {
                 thead{
                     display: block;
                     padding-top: 13px;
-                    margin-bottom: 30px;
+                    margin-bottom: 28px;
                     tr {
                         margin-bottom: 13px;
                         display: flex;
@@ -950,7 +943,7 @@ ul, li {
                             color: #FFF;
                             text-align: center;
                             font-family: 'Yu Gothic';
-                            font-size: 26.991px;
+                            font-size: 27px;
                             font-weight: 700;
                             line-height: 53.973px;
                             border-radius: 10.791px;
@@ -970,12 +963,14 @@ ul, li {
                     }
                 }
                 tbody {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 7px 0;
                     tr {
                         height: 90px;
                         display: flex;
                         align-items: center;
                         gap: 0 18px;
-                        margin-bottom: 8px;
                         background-color: #FAEFBF;
                         flex-shrink: 0;
                         td {
@@ -984,7 +979,7 @@ ul, li {
                             color: #FF783F;
                             text-align: center;
                             font-family: 'Yu Gothic';
-                            font-size: 26.991px;
+                            font-size: 27px;
                             font-weight: 700;
                             line-height: normal;
                         }
@@ -995,8 +990,9 @@ ul, li {
                         gap: 0 68px;
                         td {
                             width: 270px;
-                            padding-top: 10px;
+                            padding-top: 16px;
                             text-align: left;
+                            line-height: 32.382px;
                         }
                         td:first-child {
                             padding-left: 25px;
@@ -1008,10 +1004,10 @@ ul, li {
                         }
                     }
                     tr.tr-black.txt-small {
-                        height: 190px;
+                        height: 191px;
                         margin-bottom: 0;
                         td {
-                            font-size: 23.391px;
+                            font-size: 23.5px;
                         }
                     }
                 }
@@ -1031,7 +1027,7 @@ ul, li {
             background-size: 846.999px;
             text-align: center;
             font-family: "Noto Sans JP";
-            font-size: 45.117px;
+            font-size: 45px;
             font-weight: 700;
             line-height: normal;
             letter-spacing: 4.509px;
@@ -1047,16 +1043,17 @@ ul, li {
         overflow: hidden;
         > img:first-of-type {
             width: 383.004px;
-            margin-top: 21px;
+            margin-top: 10px;
             margin-left: 14px;
         }
         img:nth-of-type(2) {
             width: 50px;
             padding-top: 78px;
+            margin-right: 8px;
         }
         img:last-of-type {
-            width: 405.999px;
-            padding-top: 113.004px;
+            width: 406px;
+            padding-top: 111px;
         }
     }
     &-text {
@@ -1067,7 +1064,7 @@ ul, li {
         display: inline-block;
         color: #2B5174;
         font-family: "Noto Sans JP";
-        font-size: 103.608px;
+        font-size: 104px;
         font-weight: 700;
         line-height: 170%;
         clear: both;
@@ -1081,7 +1078,7 @@ ul, li {
             right: 0;
         }
         span {
-            font-size: 52.659px;
+            font-size: 53px;
             line-height: 150%;
         }
     }
@@ -1111,19 +1108,19 @@ ul, li {
         img:last-of-type {
             width: 354px;
             position: absolute;
-            bottom: 2px;
+            bottom: 7px;
             left: 44%;
             transform: translateX(-50%);
         }
     }
     &-note {
-        margin-top: 12px;
+        margin-top: 6px;
         margin-left: 50px;
         margin-right: 50px;
         text-align: left;
         color: #5F5F5F;
         font-family: "Noto Sans JP";
-        font-size: 19.998px;
+        font-size: 20px;
         font-weight: 700;
         line-height: 170%;
     }
@@ -1167,7 +1164,7 @@ ul, li {
             background-size: 95% auto;
             display: flex;
             justify-content: center;
-            align-items: flex-end;
+            align-items: center;
         }
         .fixed-doctor {
             img {
@@ -1176,19 +1173,22 @@ ul, li {
         }
         .fixed-text {
             p:first-of-type {
+                padding-right: 10px;
+                margin-top: 49px;
                 color: #2B5174;
                 text-align: center;
                 font-family: "Noto Sans JP";
-                font-size: 27.257px;
+                font-size: 27.5px;
                 font-weight: 700;
                 line-height: 40px;
                 letter-spacing: 1.908px;
             }
             p:last-of-type {
+                padding-right: 16px;
                 color: #06C755;
                 text-align: center;
                 font-family: "Noto Sans JP";
-                font-size: 46.847px;
+                font-size: 47px;
                 font-weight: 900;
                 line-height: 175%;
                 letter-spacing: 1.874px;
@@ -1223,14 +1223,14 @@ ul, li {
                 color: #FFF;
                 text-align: center;
                 font-family: "Noto Sans JP";
-                font-size: 26.333px;
+                font-size: 26.5px;
                 font-weight: 700;
                 line-height: 175%;
                 letter-spacing: 1.843px;
             }
             span {
                 color: #FFF100;
-                font-size: 41.788px;
+                font-size: 42px;
                 letter-spacing: 2.925px;
                 small {
                     font-size: 35px;
@@ -1279,7 +1279,7 @@ ul, li {
         .customer-bubbles02 {
             float: right;
             position: relative;
-            top: -194px;
+            top: -200px;
             right: 50px;
             margin-bottom: -194px;
             clear: both;
@@ -1301,7 +1301,7 @@ ul, li {
         .customer-qa {
             text-align: center;
             position: relative;
-            top: -21px;
+            top: -30px;
             right: -10px;
             img {
                 width: 814px;
@@ -1332,7 +1332,7 @@ ul, li {
         .customer-bubbles03 {
             float: right;
             margin-right: 46px;
-            margin-top: 17px;
+            margin-top: 7px;
             clear: both;
             img {
                 width: 557px;
@@ -1355,7 +1355,7 @@ ul, li {
 }
 
 .reasons {
-    margin-bottom: 42px;
+    margin-bottom: 36px;
     &-head {
         margin-bottom: 42px;
         padding-top: 71px;
@@ -1366,17 +1366,17 @@ ul, li {
             color: #2B5174;
             text-align: center;
             font-family: "Noto Sans JP";
-            font-size: 49.464px;
+            font-size: 49.5px;
             font-weight: 700;
             line-height: 170%;
             letter-spacing: 4.95px;
         }
         > p:last-of-type {
             margin-top: -42px;
-            margin-bottom: 27px;
+            margin-bottom: 18px;
             color: #2B5174;
             font-family: "Noto Sans JP";
-            font-size: 54.956px;
+            font-size: 55px;
             font-weight: 700;
             line-height: 170%;
             letter-spacing: 2.748px;
@@ -1386,7 +1386,7 @@ ul, li {
                 color: #d5a712;
                 text-align: center;
                 font-family: "Merriweather";
-                font-size: 129.996px;
+                font-size: 130px;
                 font-weight: 700;
                 line-height: 1;
             }
@@ -1514,7 +1514,7 @@ ul, li {
 }
 
 .emishialine {
-    margin-bottom: 36px;
+    margin-bottom: 32px;
     &-container {
         position: relative;
         > img {
@@ -1561,14 +1561,14 @@ ul, li {
     }
     &-head {
         padding: 0 50px;
-        margin-bottom: 26px;
+        margin-bottom: 20px;
         > p {
             margin-top: 43px;
             margin-bottom: 11px;
             color: #5F5F5F;
             text-align: center;
             font-family: "Noto Sans JP";
-            font-size: 27.773px;
+            font-size: 28px;
             font-weight: 400;
             line-height: normal;
         }
@@ -1627,7 +1627,7 @@ ul, li {
             color: #FFF;
             text-align: center;
             font-family: "Noto Sans JP";
-            font-size: 38.736px;
+            font-size: 39px;
             font-weight: 700;
             line-height: 140%;
         }
@@ -1648,7 +1648,7 @@ ul, li {
             background-size: 95% auto;
             display: flex;
             justify-content: center;
-            align-items: flex-end;
+            align-items: center;
         }
         .fixed-doctor {
             img {
@@ -1657,24 +1657,27 @@ ul, li {
         }
         .fixed-text {
             p:first-of-type {
+                padding-right: 10px;
+                margin-top: 24px;
                 color: #2B5174;
                 text-align: center;
                 font-family: "Noto Sans JP";
-                font-size: 27.257px;
+                font-size: 27.5px;
                 font-weight: 700;
                 line-height: 40px;
                 letter-spacing: 1.908px;
             }
             p:last-of-type {
+                padding-right: 16px;
                 color: #06C755;
                 text-align: center;
                 font-family: "Noto Sans JP";
-                font-size: 46.847px;
+                font-size: 47px;
                 font-weight: 900;
                 line-height: 175%;
                 letter-spacing: 1.874px;
                 span {
-                    font-size: 53.416px;
+                    font-size: 53.5px;
                     letter-spacing: 2.137px;
                 }
             }
@@ -1704,14 +1707,14 @@ ul, li {
                 color: #FFF;
                 text-align: center;
                 font-family: "Noto Sans JP";
-                font-size: 26.333px;
+                font-size: 26.5px;
                 font-weight: 700;
                 line-height: 175%;
                 letter-spacing: 1.843px;
             }
             span {
                 color: #FFF100;
-                font-size: 41.788px;
+                font-size: 42px;
                 letter-spacing: 2.925px;
                 small {
                     font-size: 35px;
@@ -1748,7 +1751,7 @@ ul, li {
                 color: #919DDA;
                 text-align: center;
                 font-family: "Bad Script";
-                font-size: 47.142px;
+                font-size: 47px;
                 font-weight: 400;
                 line-height: normal;
                 white-space: nowrap;
@@ -1800,14 +1803,14 @@ ul, li {
                 color: #D5A712;
                 text-align: center;
                 font-family: "Merriweather";
-                font-size: 130.359px;
+                font-size: 130.5px;
                 font-weight: 700;
                 line-height: 1;
             }
             p:last-child {
                 color: #FFF;
                 font-family: "Noto Sans JP";
-                font-size: 73.185px;
+                font-size: 73px;
                 font-style: italic;
                 font-weight: 700;
                 line-height: 170%;
@@ -1818,7 +1821,7 @@ ul, li {
 
     &-content {
         > ul {
-            padding-top: 29px;
+            padding-top: 25px;
             display: flex;
             gap: 0 42px;
             li.card-item {
@@ -1843,12 +1846,12 @@ ul, li {
                     span {
                         color: #2B5174;
                         font-family: "Noto Sans JP";
-                        font-size: 50.822px;
+                        font-size: 51px;
                         font-style: italic;
                         font-weight: 700;
                         line-height: 140%;
                         small {
-                            font-size: 51.003px;
+                            font-size: 51px;
                         }
                     }
                 }
@@ -1868,14 +1871,14 @@ ul, li {
                     text-align: left;
                     color: #2B5174;
                     font-family: "Noto Sans JP";
-                    font-size: 34.002px;
+                    font-size: 34px;
                     font-weight: 500;
                     line-height: 160%;
                     padding: 40px 50px 10px 50px;
                     span {
                         color: #FF783F;
                         font-family: "Noto Sans JP";
-                        font-size: 34.002px;
+                        font-size: 34px;
                         font-weight: 700;
                         line-height: 160%;
                     }
@@ -1889,7 +1892,7 @@ ul, li {
                             color: #5F5F5F;
                             text-align: center;
                             font-family: "Noto Sans JP";
-                            font-size: 27.999px;
+                            font-size: 28px;
                             font-weight: 500;
                             line-height: 140%;
                         }
@@ -1974,7 +1977,7 @@ ul, li {
                             text-align: left;
                             color: #2B5174;
                             font-family: "Noto Sans JP";
-                            font-size: 29.997px;
+                            font-size: 30px;
                             font-weight: 500;
                             line-height: 160%;
                         }
@@ -1991,7 +1994,7 @@ ul, li {
                             margin: 0 40px;
                             color: #2B5174;
                             font-family: "Noto Sans JP";
-                            font-size: 29.997px;
+                            font-size: 30px;
                             font-weight: 500;
                             line-height: 160%;
                             text-align: left;
@@ -2057,7 +2060,7 @@ ul, li {
         margin-bottom: 53px;
     }
     &-head-title {
-        margin-bottom: 30px;
+        margin-bottom: 24px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -2066,7 +2069,7 @@ ul, li {
             color: #606B7C;
             text-align: center;
             font-family: "Noto Sans CJK JP";
-            font-size: 27.999px;
+            font-size: 30px;
             font-weight: 700;
             line-height: normal;
             letter-spacing: 1.404px;
@@ -2079,7 +2082,7 @@ ul, li {
             position: relative;
             color: #606B7C;
             font-family: "Noto Sans JP";
-            font-size: 26.001px;
+            font-size: 26px;
             font-weight: 500;
             line-height: 46px;
             letter-spacing: 1.296px;
@@ -2097,7 +2100,7 @@ ul, li {
         p {
             color: #606B7C;
             font-family: "Noto Sans JP";
-            font-size: 21.996px;
+            font-size: 22px;
             font-weight: 400;
             line-height: 35.2px;
         }
@@ -2285,7 +2288,7 @@ ul, li {
                 width: 160px;
                 color: #000;
                 font-family: "Noto Sans JP";
-                font-size: 33.597px;
+                font-size: 33.6px;
                 font-weight: 400;
                 line-height: 175%;
                 letter-spacing: 2.349px;
@@ -2293,7 +2296,7 @@ ul, li {
             p {
                 color: #000;
                 font-family: "Noto Sans JP";
-                font-size: 33.597px;
+                font-size: 33.6px;
                 font-weight: 500;
                 line-height: 175%;
                 letter-spacing: 2.349px;
@@ -2322,7 +2325,7 @@ ul, li {
         color: #000;
         text-align: center;
         font-family: "Noto Sans JP";
-        font-size: 24.003px;
+        font-size: 24px;
         font-weight: 400;
         line-height: 150%;
         letter-spacing: 0.72px;
@@ -2444,12 +2447,13 @@ ul, li {
                 }
                 .fixed-text {
                     p:first-of-type {
+                        padding-right: 1.444vw;
                         font-size: 3.029vw;
-                        font-weight: 700;
                         line-height: 4.444vw;
                         letter-spacing: 0.212vw;
                     }
                     p:last-of-type {
+                        padding-right: 2vw;
                         font-size: 5.205vw;
                         letter-spacing: 0.208vw;
                         span {
@@ -2515,7 +2519,6 @@ ul, li {
                 }
                 > img:nth-of-type(1) {
                     max-width: 53.111vw;
-                    margin-bottom: 0.333vw;
                 }
                 > img:nth-of-type(2) {
                     width: 67.333vw;
@@ -2539,8 +2542,8 @@ ul, li {
                     }
                 }
                 .coution-satisfaction {
-                    margin-top: 7.889vw;
-                    margin-bottom: 22.222vw;
+                    margin-top: 7.111vw;
+                    margin-bottom: 21.111vw;
                     font-size: 3.889vw;
                     letter-spacing: 0.311vw;
                     span {
@@ -2587,12 +2590,11 @@ ul, li {
             .coution-imgs {
                 img:first-child {
                     width: 46.778vw;
-                    padding-top: 3.778vw;
+                    padding-top: 3.111vw;
                     padding-right: 4.444vw;
                 }
                 img:nth-child(2){
                     width: 49.222vw;
-                    margin-top: -2.444vw;
                     padding-left: 1.778vw;
                 }
                 img:nth-child(3) {
@@ -2764,14 +2766,14 @@ ul, li {
                     letter-spacing: 0.501vw;
                 }
                 .solution-top {
-                    margin-bottom: 3.556vw;
+                    margin-bottom: 2.889vw;
                     img:first-of-type {
                         padding-left: 10.889vw;
                         width: 74.333vw;
                     }
                     img:last-of-type {
                         width: 30.333vw;
-                        top: -4.111vw;
+                        top: -4.556vw;
                         left: 5.333vw;
                     }
                 }
@@ -2779,6 +2781,7 @@ ul, li {
                     > img:first-of-type {
                         width: 77.667vw;
                         margin-bottom: 5.444vw;
+                        margin-left: 1.111vw;
                     }
                     > img:nth-of-type(2){
                         width: 86.222vw;
@@ -2799,6 +2802,7 @@ ul, li {
                 margin-top: 11.778vw;
                 > img {
                     width: 96.556vw;
+                    margin-left: 1.889vw;
                 }
                 &-content {
                     > img:first-of-type {
@@ -2808,10 +2812,10 @@ ul, li {
                     > img:nth-of-type(2){
                         width: 81.778vw;
                         margin-right: 2.667vw;
-                        margin-bottom: 4vw;
+                        margin-bottom: 3.556vw;
                     }
                     .benefits-imgs {
-                        margin-bottom: 5vw;
+                        margin-bottom: 4.222vw;
                         img:first-of-type {
                             width: 83.222vw;
                             margin-right: 5.556vw;
@@ -2854,7 +2858,7 @@ ul, li {
                 }
                 &-medicine-info {
                     .benefits-top {
-                        margin-bottom: 6.667vw;
+                        margin-bottom: 5.667vw;
                         img:first-child {
                             max-width: 67.333vw;
                         }
@@ -2877,10 +2881,9 @@ ul, li {
                     margin-bottom: 3vw;
                     margin-left: 2.778vw;
                     gap: 0 2vw;
-                    overflow: scroll;
                     ul {
                         left: -0.333vw;
-                        width: 24.789vw;
+                        width: 24.778vw;
                         height: 86.556vw;
                         border-radius: 1.839vw 0px 0px 1.839vw;
                         li {
@@ -2892,7 +2895,7 @@ ul, li {
                             }
                         }
                         li:nth-child(4){
-                            padding: 2.111vw 1.556vw;
+                            padding: 2.167vw 1.556vw;
                         }
                         li:last-child {
                             padding-top: 8.222vw;
@@ -2901,7 +2904,7 @@ ul, li {
                     table {
                         thead{
                             padding-top: 1.444vw;
-                            margin-bottom: 3.333vw;
+                            margin-bottom: 1.111vw;
                             tr {
                                 margin-bottom: 1.444vw;
                                 gap: 0 2vw;
@@ -2909,7 +2912,7 @@ ul, li {
                                     width: 35.584vw;
                                     height: 5.997vw;
                                     font-size: 2.999vw;
-                                    line-height: 5.997vw;
+                                    line-height: 2.999vw;
                                     border-radius: 1.199vw;
                                     &::after {
                                         bottom: -1.444vw;
@@ -2921,10 +2924,10 @@ ul, li {
                             }
                         }
                         tbody {
+                            gap: 0.778vw 0;
                             tr {
                                 height: 10vw;
                                 gap: 0 2vw;
-                                margin-bottom: 0.889vw;
                                 td {
                                     width: 35.556vw;
                                     font-size: 2.999vw;
@@ -2934,14 +2937,15 @@ ul, li {
                                 gap: 0 7.556vw;
                                 td {
                                     width: 30vw;
-                                    padding-top: 1.111vw;
+                                    padding-top: 1.778vw;
+                                    line-height: 3.598vw;
                                 }
                                 td:first-child {
                                     padding-left: 2.778vw;
                                 }
                             }
                             tr.tr-black.txt-small {
-                                height: 21.111vw;
+                                height: 21.222vw;
                                 td {
                                     font-size: 2.599vw;
                                 }
@@ -2965,12 +2969,13 @@ ul, li {
             &-box {
                 > img:first-of-type {
                     width: 42.556vw;
-                    margin-top: 2.333vw;
+                    margin-top: 1.111vw;
                     margin-left: 1.556vw;
                 }
                 img:nth-of-type(2) {
                     width: 5.556vw;
                     padding-top: 8.667vw;
+                    margin-right: 0.889vw;
                 }
                 img:last-of-type {
                     width: 45.111vw;
@@ -3010,7 +3015,7 @@ ul, li {
                 }
             }
             &-note {
-                margin-top: 1.333vw;
+                margin-top: 0.667vw;
                 margin-left: 5.556vw;
                 margin-right: 5.556vw;
                 font-size: 2.222vw;
@@ -3049,11 +3054,14 @@ ul, li {
                 }
                 .fixed-text {
                     p:first-of-type {
+                        padding-right: 1.111vw;
+                        margin-top: 5.444vw;
                         font-size: 3.029vw;
                         line-height: 4.444vw;
                         letter-spacing: 0.212vw;
                     }
                     p:last-of-type {
+                        padding-right: 1.778vw;
                         font-size: 5.205vw;
                         letter-spacing: 0.208vw;
                         span {
@@ -3114,7 +3122,7 @@ ul, li {
                     }
                 }
                 .customer-bubbles02 {
-                    top: -21.556vw;
+                    top: -22.222vw;
                     right: 5.556vw;
                     margin-bottom: -21.556vw;
                     img {
@@ -3128,7 +3136,7 @@ ul, li {
                     }
                 }
                 .customer-qa {
-                    top: -2.333vw;
+                    top: -3.333vw;
                     right: -1.111vw;
                     img {
                         width: 90.444vw;
@@ -3147,7 +3155,7 @@ ul, li {
                 }
                 .customer-bubbles03 {
                     margin-right: 5.111vw;
-                    margin-top: 1.889vw;
+                    margin-top: 0.778vw;
                     img {
                         width: 61.889vw;
                     }
@@ -3168,7 +3176,7 @@ ul, li {
         }
 
         .reasons {
-            margin-bottom: 4.667vw;
+            margin-bottom: 4vw;
             &-head {
                 margin-bottom: 4.667vw;
                 padding-top: 7.889vw;
@@ -3186,7 +3194,7 @@ ul, li {
                 }
                 > p:last-of-type {
                     margin-top: -4.667vw;
-                    margin-bottom: 3vw;
+                    margin-bottom: 2vw;
                     font-size: 6.106vw;
                     letter-spacing: 0.305vw;
                     span {
@@ -3325,7 +3333,7 @@ ul, li {
         }
 
         .emishialine {
-            margin-bottom: 4vw;
+            margin-bottom: 3.556vw;
             &-container {
                 > img {
                     width: 100vw;
@@ -3358,7 +3366,7 @@ ul, li {
             }
             &-head {
                 padding: 0 5.556vw;
-                margin-bottom: 2.889vw;
+                margin-bottom: 2.222vw;
                 > p {
                     margin-top: 4.778vw;
                     margin-bottom: 1.222vw;
@@ -3422,11 +3430,14 @@ ul, li {
                 }
                 .fixed-text {
                     p:first-of-type {
+                        padding-right: 1.111vw;
+                        margin-top: 2.667vw;
                         font-size: 3.029vw;
                         line-height: 4.444vw;
                         letter-spacing: 0.212vw;
                     }
                     p:last-of-type {
+                        padding-right: 1.778vw;
                         font-size: 5.205vw;
                         letter-spacing: 0.208vw;
                         span {
@@ -3511,7 +3522,7 @@ ul, li {
 
             &-content {
                 > ul {
-                    padding-top: 3.222vw;
+                    padding-top: 2.778vw;
                     gap: 0 4.667vw;
                     li.card-item {
                         width: 77.778vw;
@@ -3673,7 +3684,7 @@ ul, li {
                 margin-bottom: 5.889vw;
             }
             &-head-title {
-                margin-bottom: 3.333vw;
+                margin-bottom: 2.667vw;
                 gap: 0 2.889vw;
                 p {
                     font-size: 3.111vw;
